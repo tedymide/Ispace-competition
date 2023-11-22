@@ -401,7 +401,7 @@ h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: url("../img/competi\ 1.jpg") top center;
+  background: url("../img/1a.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -556,10 +556,23 @@ section {
 .crumbs{
   margin-bottom: -83px;
 }
-
+.partners{
+  width: 200px;
+  height: auto;
+}
+.transpar{
+  background-color: #020115;
+   height: 75px;
+   border-radius: 6px;
+   padding: 20px ;
+}
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about-img{
+  margin: auto 0;
+  height: 450px;
+}
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
@@ -670,7 +683,7 @@ section {
   padding: 40px 30px;
   width: 100%;
   border: 1px solid #eef0ef;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 .why-us .icon-boxes .icon-box i {
@@ -739,10 +752,12 @@ section {
 
 .features .icon-box:hover {
   border-color: rgb(56,135,226);
+  border-radius: 8px;
 }
 
 .features .icon-box:hover h3 a {
   color: rgb(56,135,226);
+  border-radius: 8px;
 }
 
 /*--------------------------------------------------------------
