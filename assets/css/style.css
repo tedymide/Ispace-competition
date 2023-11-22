@@ -569,9 +569,11 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about-img{
-  margin: auto 0;
-  height: 450px;
+@media (min-width: 1000px) {
+  .about-img{
+    margin: auto 0;
+    height: 450px;
+  }
 }
 .about .content h3 {
   font-weight: 600;
