@@ -1664,3 +1664,7 @@ height: calc(100% - 73px);
 height: 100%;
 }
 }
+
+#top-section{
+  margin: 100px 0 0;
+}
