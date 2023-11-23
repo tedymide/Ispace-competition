@@ -27,6 +27,11 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <style>
+    *{
+        margin: 0 auto;
+    }
+  </style>
 </head>
 
 <body>
@@ -76,39 +81,85 @@
             
                     <p class="text-center">or:</p>
             
-                    <!-- Email input -->
+                    <!-- First Name input -->
                     <div class="form-outline mb-4">
-                    <input type="email" id="loginName" class="form-control" />
-                    <label class="form-label" for="loginName">Email or username</label>
+                    <input type="text" id="loginName" class="form-control" placeholder="Aladin"/>
+                    <label class="form-label" for="loginName">First Name</label>
                     </div>
 
-                    <!-- Email input -->
+                    <!-- Middle Name input -->
                     <div class="form-outline mb-4">
-                    <input type="email" id="loginName" class="form-control" />
-                    <label class="form-label" for="loginName">Email or username</label>
+                    <input type="text" id="loginName" class="form-control" placeholder="John"/>
+                    <label class="form-label" for="loginName">Middle Name</label>
                     </div>
 
-                    <!-- Email input -->
+                    <!-- Last Name input -->
                     <div class="form-outline mb-4">
-                    <input type="email" id="loginName" class="form-control" />
-                    <label class="form-label" for="loginName">Email or username</label>
+                    <input type="text" id="loginName" class="form-control" placeholder="White"/>
+                    <label class="form-label" for="loginName">Last Name</label>
+                    </div>
+
+                     <!-- Email input -->
+                    <div class="form-outline mb-4">
+                        <input type="email" id="loginName" class="form-control" placeholder="MJ@example.com"/>
+                        <label class="form-label" for="loginName">Email or username</label>
                     </div>
             
                     <!-- Password input -->
                     <div class="form-outline mb-4">
-                    <input type="password" id="loginPassword" class="form-control" />
+                    <input type="password" id="loginPassword" class="form-control" placeholder="123@34%r"/>
                     <label class="form-label" for="loginPassword">Password</label>
                     </div>
-            
+                    
+                    
+
+                    <!-- Retype Password input -->
+                    <div class="form-outline mb-4">
+                        <input type="password" id="loginPassword" class="form-control" placeholder="123@34%r"/>
+                        <label class="form-label" for="loginPassword">Confirm Password</label>
+                    </div>
+                    
+                    <!-- upload input -->
+                    <div class="form-outline mb-4">
+                       <label class="form-label" for="upload image">Upload Image</label>
+                        <input type="file" id="loginPassword" class="form-control" />
+                        
+                    </div>
+
+                    <!-- Gender input -->
+                    <div class="form-outline mb-4">
+                     <label class="form-label gender" for="Gender" >Gender</label>
+                      <div class="gender-cont">
+                        <div class="gender-opt">
+                            <input type="checkbox" id="loginPassword" value="" id="loginCheck" checked/>
+                         <label class="form-check-label" for="Gender">Male</label>
+                         </div>
+                        <div class="gender-opt">
+                            <input  type="checkbox" id="loginPassword" value="" id="loginCheck" checked/>
+                            <label class="form-check-label" for="Gender">Female</label>
+                        </div>
+                      </div>
+                     </div>
+
+                    <!-- Grade Select input -->
+                    <div class="form-outline mb-4">
+                        <label class="form-label" for="Grade" >Grade</label>
+                        <select name="Gender" id="loginName" class="form-control">
+                            <option value="Gender">Choose Grade</option>
+                            <option value="Male">Lower Grade</option>
+                            <option value="Female">Middle Grade</option>
+                        </select>
+                    </div>
+                    
                     <!-- 2 column grid layout -->
                     <div class="row mb-4">
-                    <div class="col-md-6 d-flex justify-content-center">
-                    </div>
-            
-                    <div class="col-md-6 d-flex justify-content-center">
-                        <!-- Simple link -->
-                        <a href="#!">Forgot password?</a>
-                    </div>
+                        <div class="col-md-6 d-flex justify-content-center">
+                        </div>
+                
+                        <div class="col-md-6 d-flex justify-content-center">
+                            <!-- Simple link -->
+                            <a href="#!">Forgot password?</a>
+                        </div>
                     </div>
             
                     <!-- Submit button -->
