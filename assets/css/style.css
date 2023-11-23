@@ -1684,3 +1684,17 @@ dashboard
 .note-info{
   grid-column: span 1;
 }
+@media (min-width: 300px) {
+  .gender-cot{
+    font-size: 16px;
+  }
+  #note{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1px;
+  }
+  .note-info{
+    grid-column: span 1;
+  }
+
+}
