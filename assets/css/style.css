@@ -1668,23 +1668,6 @@ height: 100%;
 }
 }
 
-
-/* ----------------------------------------
-# Register 
----------------------------------------- */
-.gender{
-  display:inline-block;
-  justify-content: space-between;
-
-}
-
-.gender-cont{
-  display: flex;
-
-}
-
-.gender-opt{
-  justify-content: space-around;
-  flex: 1;
-  margin: 0 20px;
+#top-section{
+  margin: 100px 0 0;
 }
