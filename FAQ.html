@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .accordion {
+            background-color: white;
+            column-rule: rgba(0, 0, 0, 0.8);
+            cursor: pointer;
+            font-size: 1.2rem;
+            width: 100%;
+            padding: 2rem 2.5rem;
+            border: 2rem;
+            outline: none;
+            transition: 0.4s;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+        }
+
+        .accordion i {
+            font-size: 1.6rem;
+        }
+
+        .active,
+        .accordion:hover {
+            background-color: #f1f7f5;
+        }
+
+        .pannel {
+            padding: 0 2rem 2.5rem 2rem;
+            background-color: white;
+            overflow: hidden;
+            background-color: #f1f7f5;
+            display: none;
+        }
+
+        .pannel p {
+            color: rgba(0, 0, 0, 0.7);
+            font-size: 1.2rem;
+            line-height: 1.4;
+        }
+
+        .faq {
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            margin: 10px 0;
+        }
+
+        .faq.active {
+            border: none;
+        }
+    </style>
+</head>
+<body>
+   
+    <div class="wrapper">
+        <h2>HELP</h2>
+        <h4>Frequently Asked Questions</h4>
+        <div class="faq active">
+            <button class="accordion">
+                Lorem
+                <i class="fa-solid fa-arrow-down"></i>
+            </button>
+            <div class="pannel">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut doloribus quas numquam aut explicabo quis quam laboriosam totam similique laudantium, vitae, sequi atque minima quidem pariatur ratione expedita, eveniet neque.
+                </p>
+            </div>
+        </div>
+
+        <div class="faq active">
+            <button class="accordion">
+                Lorem
+                <i class="fa-solid fa-arrow-down"></i>
+            </button>
+            <div class="pannel">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut doloribus quas numquam aut explicabo quis quam laboriosam totam similique laudantium, vitae, sequi atque minima quidem pariatur ratione expedita, eveniet neque.
+                </p>
+            </div>
+        </div>
+
+        <div class="faq active">
+            <button class="accordion">
+                Lorem
+                <i class="fa-solid fa-arrow-down"></i>
+            </button>
+            <div class="pannel">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut doloribus quas numquam aut explicabo quis quam laboriosam totam similique laudantium, vitae, sequi atque minima quidem pariatur ratione expedita, eveniet neque.
+                </p>
+            </div>
+        </div>
+
+        <div class="faq active">
+            <button class="accordion">
+                Lorem
+                <i class="fa-solid fa-arrow-down"></i>
+            </button>
+            <div class="pannel">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut doloribus quas numquam aut explicabo quis quam laboriosam totam similique laudantium, vitae, sequi atque minima quidem pariatur ratione expedita, eveniet neque.
+                </p>
+            </div>
+        </div>
+    </div>
+       <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            this.parentElement.classList.toggle("active");
+
+            var pannel = this.nextElementSibling;
+
+            if (pannel.style.display === "block") {
+                pannel.style.display = "none";
+            } else {
+                pannel.style.display = "block"; // Fixed assignment here
+            }
+        });
+    }
+</script>
+
+</body>
+</html>
