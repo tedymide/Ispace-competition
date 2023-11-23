@@ -1651,6 +1651,7 @@ section {
 --------------------------------------------------------------*/
 .divider:after,
 .divider:before {
+overflow: auto;
 content: "";
 flex: 1;
 height: 1px;
@@ -1658,9 +1659,11 @@ background: #444444;
 }
 .h-custom {
 height: calc(100% - 73px);
+overflow: auto;
 }
 @media (max-width: 550px) {
 .h-custom {
+  overflow: auto;
 height: 100%;
 }
 }
