@@ -1671,3 +1671,12 @@ height: 100%;
 #top-section{
   margin: 100px 0 0;
 }
+/* 
+----------------------------
+dashboard
+----------------------------- */
+#note{
+  display: grid;
+  grid-template-rows: auto;
+
+}
