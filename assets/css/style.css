@@ -1684,7 +1684,7 @@ dashboard
 .note-info{
   grid-column: span 1;
 }
-@media (min-width: 300px) {
+@media (min-width: 200px) {
   .gender-cot{
     font-size: 16px;
   }
@@ -1695,6 +1695,11 @@ dashboard
   }
   .note-info{
     grid-column: span 1;
+   
+  }
+  
+  #info{
+    font-size: 13px;
   }
 
 }
