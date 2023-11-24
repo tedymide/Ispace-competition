@@ -212,6 +212,7 @@ h6 {
 .navbar li:hover>a {
   color: rgb(5, 43, 85);
   border:  0px 0px 18px solid  #adb4b0fd;
+  border-radius: 5%;
 }
 .drop{
   color: #66a5ee;
