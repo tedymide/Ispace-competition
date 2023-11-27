@@ -1715,13 +1715,14 @@ dashboard
 
 }
 /* previous and next button */
-a {
+.prevnext {
   text-decoration: none;
   display: inline-block;
   padding: 8px 16px;
 }
 
-a:hover {
+.next:hover,
+.previous:hover {
   background-color: #f3f0f0;
   color: black;
 }
