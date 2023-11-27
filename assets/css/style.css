@@ -1724,9 +1724,14 @@ a:hover {
 .next {
   background-color: #00ff;
   color: white;
-  text-align: left;
 }
 
 .round {
   border-radius: 40%;
+}
+div.absolute {
+  position: absolute;
+  bottom: 350px;
+  right: 60px;
+  width: 200px;
 }
