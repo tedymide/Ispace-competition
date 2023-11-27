@@ -212,6 +212,7 @@ h6 {
 .navbar li:hover>a {
   color: rgb(5, 43, 85);
   border:  0px 0px 18px solid  #adb4b0fd;
+  border-radius: 5%;
 }
 .drop{
   color: #66a5ee;
@@ -1644,6 +1645,16 @@ section {
   background: rgb(71, 140, 219);
   color: #fff;
   text-decoration: none;
+}
+
+/* ------------------------------------------------------------
+FAQs
+------------------------------------------------------------ */
+.FAQs-type{
+  font-weight: 700;
+  /* margin: 30px 10px 10px;
+  padding: 2px; */
+  font-size: 18px;
 }
 
 /*--------------------------------------------------------------
