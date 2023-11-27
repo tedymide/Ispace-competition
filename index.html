@@ -4,10 +4,14 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta http-equiv="X-UA-Compatible" content="IE=11">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <title>Home- iSPACE Competition</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
+  
+  
 
   <!-- Favicons -->
   <link href="assets/img/ispce-icon.ico" rel="icon">
@@ -28,6 +32,9 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+   <!-- font awesome -->
+   <script src="https://kit.fontawesome.com/1bf45af5b5.js" crossorigin="anonymous"></script>
+
 
 </head>
 
@@ -45,13 +52,12 @@
         <ul>
           <li><a class="active"  href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="Competitions.html">Competitions</a></li>
-          <li><a href="events.html">Events</a></li>
+          <li class="dropdown"><a href="./events.html"><span>Competition <i class="bi bi-chevron-down"></i></a>
+            <ul class="drop">
+              <li><a href="./inter-school.html" class="drop"><span class="drop">Inter-school Competitions</span></a></li>
+              <li><a href="./intra-school.html" class="drop"><span class="drop">Intra-school Competitions</span></a></li>
+              <li><a href="./virtual.html" class="drop"><span class="drop">Virtual Competitions</span></a></li>
 
-          <li class="dropdown"><a href="./awards.html"><span>Awards <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="./awards.html#primary"><span class="drop"> Primary / Upper Elementary</span></a></li>
-              <li><a href="./awards.html#secondary"><span class="drop"> Secondary / Middle School</span></a></li>
               <!-- <li class="dropdown"><a href="#"><span class="drop">Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="#"><span class="drop"> Deep Drop Down 1</span></a></li>
@@ -60,13 +66,18 @@
               </li>
             </ul>
           </li>
+          <!-- <li><a href="events.html">Competitions</a></li>
+          <li><a href="events.html">Events</a></li> -->
+
+      
           <li><a href="contact.html">Contact</a></li>
-          <li><a href="./FAQ.html">FAQs</a></li>
+          <li><a href="#FAQs">FAQs</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
+      
       </nav><!-- .navbar -->
-
-      <a href="./events.html" class="get-started-btn">Get Started</a>
+      <a href="login.html" class="get-started-btn">Login</a>
+      <a href="./register.html" class="get-started-btn">Get Started</a>
 
     </div>
   </header><!-- End Header -->
@@ -77,7 +88,7 @@
     <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
       <h1> Challenging Today,<br>Winning Tomorrow</h1>
       <h2>We are making the future better</h2>
-      <a href="./events.html" class="btn-get-started">Get Started</a>
+      <a href="./register.html" class="btn-get-started">Get Started</a>
     </div>
   </section><!-- End Hero -->
 
@@ -119,12 +130,12 @@
         <div class="row counters">
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="1232" data-purecounter-duration="1" class="purecounter"></span>
+            <span data-purecounter-start="0" data-purecounter-end="10000" data-purecounter-duration="1" class="purecounter"></span>
             <p>Students</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="64" data-purecounter-duration="1" class="purecounter"></span>
+            <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
             <p>Competitions</p>
           </div>
 
@@ -134,7 +145,7 @@
           </div>
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+            <span data-purecounter-start="0" data-purecounter-end="30" data-purecounter-duration="1" class="purecounter"></span>
             <p>Awardees'</p>
           </div>
 
@@ -168,7 +179,7 @@
                     <h4>Inter-school Competitions</h4>
                     <p>A competition within a school, Helps in accessing students within the school.</p>
                     <div class="text-center register">
-                      <a href="courses.html" class="get-started-btn">Register</a>
+                      <a href="./inter-school.html" class="get-started-btn">Register</a>
                     </div>
                   </div>
                 </div>
@@ -178,7 +189,7 @@
                     <h4>Intra-school Competitions</h4>
                     <p>A competition between school, Helps in improving students exposure outside the school</p>
                     <div class="text-center register-mid">
-                      <a href="courses.html" class="get-started-btn">Register</a>
+                      <a href="./intra-school.html" class="get-started-btn">Register</a>
                     </div>
                   </div>
                 </div>
@@ -188,7 +199,7 @@
                     <h4>Virtual Competitions</h4>
                     <p>A competition made to bring out the best from students around the world.</p>
                     <div class="text-center register">
-                      <a href="courses.html" class="get-started-btn">Register</a>
+                      <a href="./virtual.html" class="get-started-btn">Register</a>
                     </div>
                   </div>
                 </div>
@@ -204,37 +215,37 @@
     <section id="features" class="features">
       <div class="container" data-aos="fade-up">
 
+        <div class="section-title">
+          <p>Partners</p>
+        </div>
+        
         <div class="row" data-aos="zoom-in" data-aos-delay="100">
-          <div class="col-lg-2 col-md-4">
+          <div class="col-lg-3 col-md-4">
+            
             <div class="icon-box">
               <!-- <i class="ri-gradienter-line" style="color: #ffbb2c;"></i> -->
               <a href="www.makeblock.com"><img src="./assets/img/makeblock-logo.webp" alt="Make block" class="partners"></a>
             </div>
           </div>
-          <div class="col-lg-2 col-md-4 mt-4 mt-md-0">
+          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
             <div class="icon-box transpar">
               <!-- <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i> -->
               <a href="https://www.twinscience.com/en/"><img src="./assets/img/Twin-coding.png" alt="Twin coding" class="partners"></a>
             </div>
           </div>
-          <div class="col-lg-2 col-md-4 mt-4 mt-md-0">
+          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
             <div class="icon-box ">
               <!-- <i class="ri-calendar-todo-line" style="color: #e80368;"></i> -->
               <h3><a href="https://www.smarttech.com/"><img src="./assets/img/SMART_Technologies_logo_richblack.webp" alt="smart logo" class="partners"></a></h3>
             </div>
           </div>
-          <div class="col-lg-2 col-md-4 mt-4 mt-lg-0">
+          <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
             <div class="icon-box">
               <!-- <i class="ri-paint-brush-line" style="color: #e361ff;"></i> -->
               <h3><a href="https://photon.education/artificial-intelligence/"><img src="./assets/img/photon logo_90h.png" alt="photon logo" class="partners"></a></h3>
             </div>
           </div>
-          <div class="col-lg-2 col-md-4 mt-4 mt-lg-0">
-            <div class="icon-box">
-              <!-- <i class="ri-paint-brush-line" style="color: #e361ff;"></i> -->
-              <h3><a href="https://photon.education/artificial-intelligence/"><img src="./assets/img/scratch logo_sm.png" alt="photon logo" class="partners"></a></h3>
-            </div>
-          </div>
+         
           <!-- uncomment to add more sponsors -->
           <!-- <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box">
@@ -301,7 +312,7 @@
 
         <div class="row" data-aos="zoom-in" data-aos-delay="100">
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="course-item">
               <img src="assets/img/robot-car-gif.gif" class="img-fluid competi" alt="Moving Robot">
               <div class="course-content">
@@ -311,14 +322,15 @@
 
                 <h3><a href="Competitions-details.html">Robotics</a></h3>
                 <p>In this competitions the student are given a particular project to build then upload the videos, The student with the best get to be awarded </p>
-                <div class="text-center">
+                
+              </div>
+              <div class="text-center competi-learn1">
                   <a href="./competitions-details.html" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
-              </div>
             </div>
           </div> <!-- End Course Item-->
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
             <div class="course-item">
               <img src="assets/img/game-dev2.gif" class="img-fluid competi" alt="A shooting game between crab and octopus">
               <div class="course-content">
@@ -326,28 +338,46 @@
                   <h4>iSPACE</h4>
                 </div>
 
-                <h3><a href="Competitions-details.html">Coding</a></h3>
+                <h3><a href="./coding-details.html">Game and Animation</a></h3>
                 <p>In this competitions the student are given a particular project to code in aspecific time range then upload the videos and the file, The student with the best get to be awarded </p>
-                <div class="text-center">
-                  <a href="./competitions-details.html" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
-                </div>
+                
               </div>
+              <div class="text-center competi-learn">
+                  <a href="./coding-details.html" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                </div>
             </div>
           </div> <!-- End Course Item-->
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
             <div class="course-item">
               <img src="assets/img/compti5.jpg" class="img-fluid competi" alt="..." >
               <div class="course-content">
                 <div class="d-flex justify-content-between align-items-center mb-3">
-                  <h4>idesign</h4>
+                  <h4>iDESIGN</h4>
                 </div>
 
-                <h3><a href="Competitions-details.html">Graphic Design</a></h3>
+                <h3><a href="./design-details.html">Graphic Design</a></h3>
                 <p>In this competitions the student are given a particular project to design and then upload the videos of them doing it and their design, The student with the best get to be awarded </p>
-                <div class="text-center">
-                  <a href="./competitions-details.html" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                
+              </div>
+              <div class="text-center competi-learn">
+                  <a href="./design-details.html" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
+            </div>
+          </div> <!-- End Course Item-->
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="course-item">
+              <img src="assets/img/app-flutter1 development.gif" class="img-fluid competi" alt="A shooting game between crab and octopus">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4>iSPACE</h4>
+                </div>
+
+                <h3><a href="./app-details.html">Mobile-App Development</a></h3>
+                <p>In this competitions, The student are to code/make a particular App  in aspecific time range then upload the APP and the file, The student with the best get to be awarded </p>
+              </div>
+              <div class="text-center competi-learn">
+                <a href="./app-details.html" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
               </div>
             </div>
           </div> <!-- End Course Item-->
@@ -357,8 +387,54 @@
       </div>
     </section><!-- End Popular Courses Section -->
 
+    <section id="features" class="features">
+      <div class="container" data-aos="fade-up">
+ 
+            <div class="section-title">
+              <p>APPS and Tools </p>
+            </div>
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-4 col-md-4">
+           
+            <div class="icon-box">
+              <!-- <i class="ri-gradienter-line" style="color: #ffbb2c;"></i> -->
+              <a href="https://www.scratchjr.org/"><img src="./assets/img/scratchjr.png" alt="Sratch junior" class="partners"></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 mt-4 mt-md-0">
+            <div class="icon-box ">
+              <!-- <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i> -->
+              <a href="https://www.tinkercad.com/"><img src="./assets/img/tinkercad.png" alt="Thinker cad" class="partners"></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 mt-4 mt-md-0">
+            <div class="icon-box ">
+              <!-- <i class="ri-calendar-todo-line" style="color: #e80368;"></i> -->
+              <h3><a href="https://arcade.makecode.com/"><img src="./assets/img/makecode.png" alt="Microsoft Makecode" class="partners"></a></h3>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 mt-4 mt-lg-0">
+            <div class="icon-box">
+              <!-- <i class="ri-paint-brush-line" style="color: #e361ff;"></i> -->
+              <h3><a href="https://makecode.microbit.org/"><img src="./assets/img/microbit.jpg" alt="Microsoft Microbit" class="partners"></a></h3>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 mt-4 mt-lg-0">
+            <div class="icon-box">
+              <!-- <i class="ri-paint-brush-line" style="color: #e361ff;"></i> -->
+              <h3><a href="https://makeymakey.com/"><img src="./assets/img/makey makey.png" alt="Makey Makey" class="partners"></a></h3>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 mt-4 mt-md-0">
+            <div class="icon-box ">
+              <!-- <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i> -->
+              <a href="https://scratch.mit.edu/"><img src="./assets/img/scratch logo_sm.png" alt="Scratch" class="partners"></a>
+            </div>
+          </div>
+
     <!-- ======= Trainers Section ======= -->
-    <section id="trainers" class="trainers">
+    <!-- <section id="trainers" class="trainers">
       <div class="container" data-aos="fade-up">
 
         <div class="row" data-aos="zoom-in" data-aos-delay="100">
@@ -422,7 +498,233 @@
         </div>
 
       </div>
-    </section><!-- End Trainers Section -->
+    </section>End Trainers Section -->
+    
+    <!-- ======= Trainers Section ======= -->
+    <!-- <section id="trainers" class="trainers">
+      <div class="container wrapper" data-aos="fade-up" id="FAQs">
+          
+                <div class="awards-medal" id="primary">
+                    <div class="row" data-aos="zoom-in" data-aos-delay="100" >
+                      <h2 class="award-type">Frequently Asked Questions <span class="FAQs-type ">FAQs</span> </h2>
+                      
+                       <div class="col-lg-12 col-md-6 align-items-stretch">
+                        <h4>General FAQs:</h4>
+                           <div class="faq active">
+                              <button class="accordion">
+                                What is iSPACE Virtual Competition?
+                                  <i class="fa-solid fa-arrow-down"></i>
+                              </button>
+                              <div class="pannel">
+                                  <p>
+                                     iSPACE Virtual Competition is an online platform designed for kids to participate in coding and graphic design challenges in a fun and educational environment
+                                  </p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-12 col-md-6 align-items-stretch">
+                            <div class="faq active">
+                               <button class="accordion">
+                                Who can participate in iSPACE Virtual Competition?
+                                   <i class="fa-solid fa-arrow-down"></i>
+                               </button>
+                               <div class="pannel">
+                                   <p>
+                                    iSPACE Virtual Competition is open to students in lower, middle, and upper grades who have an interest in coding and graphic design.
+                                   </p>
+                               </div>
+                            </div>
+                         </div>      
+                         <div class="col-lg-12 col-md-6 align-items-stretch">
+                            <div class="faq active">
+                               <button class="accordion">
+                                How do I register my child for the competition?
+                                   <i class="fa-solid fa-arrow-down"></i>
+                               </button>
+                               <div class="pannel">
+                                   <p>
+                                    Registration details and instructions can be found on our website. Follow the registration process to enroll your child.
+                                   </p>
+                               </div>
+                            </div>
+                         </div>      
+                         <div class="col-lg-12 col-md-6 align-items-stretch">
+                            <div class="faq active">
+                               <button class="accordion">
+                                What coding languages are used in the competition?
+                                   <i class="fa-solid fa-arrow-down"></i>
+                               </button>
+                               <div class="pannel">
+                                   <p>
+                                    The competition covers a range of coding languages suitable for different grade levels, ensuring an inclusive and engaging experience.
+                                   </p>
+                               </div>
+                            </div>
+                         </div>          
+                         <div class="col-lg-12 col-md-6 align-items-stretch">
+                          <div class="faq active">
+                             <button class="accordion">
+                              Do I need any special software or equipment for the competition?
+                                 <i class="fa-solid fa-arrow-down"></i>
+                             </button>
+                             <div class="pannel">
+                                 <p>
+                                  The requirements vary based on the competition category. Detailed specifications will be provided upon registration.
+                                 </p>
+                             </div>
+                          </div>
+                       </div> -->
+
+                       <!-- coding-------------------------------------------- -->
+
+                       <!-- <h4>Coding Competition FAQs</h4>   
+
+                       <div class="col-lg-12 col-md-6 align-items-stretch">
+                        <div class="faq active">
+                           <button class="accordion">
+                            What coding challenges are included in the competition?
+                               <i class="fa-solid fa-arrow-down"></i>
+                           </button>
+                           <div class="pannel">
+                               <p>
+                                The coding challenges cover a variety of topics, from basic programming concepts for lower grades to more advanced coding tasks for upper grades.
+                               </p>
+                           </div>
+                        </div>
+                     </div>          
+                     <div class="col-lg-12 col-md-6 align-items-stretch">
+                      <div class="faq active">
+                         <button class="accordion">
+                          Are there practice materials available for participants?
+                             <i class="fa-solid fa-arrow-down"></i>
+                         </button>
+                         <div class="pannel">
+                             <p>
+                              Yes, we provide practice materials and resources to help participants prepare for the coding challenges.
+                             </p>
+                         </div>
+                      </div>
+                   </div>          
+                   <div class="col-lg-12 col-md-6 align-items-stretch">
+                    <div class="faq active">
+                       <button class="accordion">
+                        How will the coding submissions be evaluated?
+                           <i class="fa-solid fa-arrow-down"></i>
+                       </button>
+                       <div class="pannel">
+                           <p>
+                            Coding submissions will be evaluated based on factors such as functionality, creativity, and adherence to coding principles.
+                           </p>
+                       </div>
+                    </div>
+                 </div>  -->
+                 <!-- ----------graphic------------------------------------- -->
+
+                 <!-- <h4>Graphic Design Competition FAQs:</h4>
+
+                 <div class="col-lg-12 col-md-6 align-items-stretch">
+                  <div class="faq active">
+                     <button class="accordion">
+                      What graphic design tools are recommended for the competition?
+                         <i class="fa-solid fa-arrow-down"></i>
+                     </button>
+                     <div class="pannel">
+                         <p>
+                          Participants can use a variety of graphic design tools. We recommend tools suitable for different age groups, ensuring accessibility.
+                         </p>
+                     </div>
+                  </div>
+               </div>          
+               <div class="col-lg-12 col-md-6 align-items-stretch">
+                <div class="faq active">
+                   <button class="accordion">
+                       Are there themes for the graphic design challenges?
+                       <i class="fa-solid fa-arrow-down"></i>
+                   </button>
+                   <div class="pannel">
+                       <p>
+                        Yes, each graphic design challenge may have a specific theme or prompt. This information will be provided in advance.
+                       </p>
+                   </div>
+                </div>
+             </div>      
+             <div class="col-lg-12 col-md-6 align-items-stretch">
+              <div class="faq active">
+                 <button class="accordion">
+                  Can students collaborate on graphic design projects?
+                     <i class="fa-solid fa-arrow-down"></i>
+                 </button>
+                 <div class="pannel">
+                     <p>
+                      Collaboration policies vary based on competition categories. Please refer to the competition guidelines for details.
+                     </p>
+                 </div>
+              </div>
+           </div>  -->
+           <!-- ------------ technical---------------------------- -->
+           <!-- <h4> Technical Support FAQs:</h4>
+           
+           <div class="col-lg-12 col-md-6 align-items-stretch">
+            <div class="faq active">
+               <button class="accordion">
+                What if my child encounters technical issues during the competition?
+                   <i class="fa-solid fa-arrow-down"></i>
+               </button>
+               <div class="pannel">
+                   <p>
+                    We have a dedicated technical support team available to assist participants. Contact details will be provided closer to the competition dates.
+                   </p>
+               </div>
+            </div>
+         </div>  
+         <div class="col-lg-12 col-md-6 align-items-stretch">
+          <div class="faq active">
+             <button class="accordion">
+              Is there a helpline for parents who need assistance with the registration process?
+                 <i class="fa-solid fa-arrow-down"></i>
+             </button>
+             <div class="pannel">
+                 <p>
+                   Yes, we offer a helpline to assist parents with any registration-related queries. Contact details can be found on the website.
+                 </p>
+             </div>
+          </div>
+       </div>   -->
+       
+           
+           <!-- -------------------results---------- -->
+           <!-- <h4>Results and Recognition FAQs:</h4>
+       <div class="col-lg-12 col-md-6 align-items-stretch">
+        <div class="faq active">
+           <button class="accordion">
+            How and when will the competition results be announced?
+               <i class="fa-solid fa-arrow-down"></i>
+           </button>
+           <div class="pannel">
+               <p>
+                The results will be announced on our website, and participants will also be notified through email. The announcement date will be communicated in advance.
+               </p>
+           </div>
+        </div>
+     </div>  
+     <div class="col-lg-12 col-md-6 align-items-stretch">
+      <div class="faq active">
+         <button class="accordion">
+          What kind of recognition or awards are provided to winners?
+             <i class="fa-solid fa-arrow-down"></i>
+         </button>
+         <div class="pannel">
+             <p>
+              Winners will receive certificates and may have the opportunity for featured recognition on our website and social media platforms.
+             </p>
+         </div>
+      </div>
+   </div>        
+                    </div>
+                </div>
+
+        </div>
+    </section>End Trainers Section -->
 
   </main><!-- End #main -->
 
@@ -449,18 +751,19 @@
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="./index.html">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="./about.html">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="./Competions.html">Competitions</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./events.html">Competitions</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="./competitions-details.html">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> -->
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Competitions</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="./competitions-details.html">Coding</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./coding-details.html">Coding</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="./competitions-details.html">Robotics</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="./competitions-details.html">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./design-details.html">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./competitions-details.html">Mobile Development</a></li>
             </ul>
           </div>
 
@@ -494,7 +797,7 @@
   </footer><!-- End Footer -->
 
   <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#hero" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>

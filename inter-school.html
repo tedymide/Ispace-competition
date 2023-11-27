@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Contact - iSPACE Competition</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>FAQ - iSPACE-competition</title>
 
   <!-- Favicons -->
   <link href="assets/img/ispce-icon.ico" rel="icon">
@@ -27,15 +25,68 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  
-   <!-- font awesome -->
-   <script src="https://kit.fontawesome.com/1bf45af5b5.js" crossorigin="anonymous"></script>
 
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/1bf45af5b5.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .accordion {
+            background-color: white;
+            column-rule: rgba(0, 0, 0, 0.8);
+            cursor: pointer;
+            font-size: 1.2rem;
+            width: 100%;
+            padding: 2rem 2.5rem;
+            border: 2rem;
+            outline: none;
+            transition: 0.4s;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+        }
+
+        .accordion i {
+            font-size: 1.6rem;
+        }
+
+    
+        .accordion:hover {
+            background-color: #f1f7f5;
+        }
+
+        .pannel {
+            padding: 0 2rem 2.5rem 2rem;
+            background-color: white;
+            overflow: hidden;
+            background-color: #f1f7f5;
+            display: none;
+        }
+
+        .pannel p {
+            color: rgba(0, 0, 0, 0.7);
+            font-size: 1.2rem;
+            line-height: 1.4;
+        }
+
+        .faq {
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            margin: 10px 0;
+        }
+
+        .faq.active {
+            border: none;
+        }
+    </style>
 </head>
-
 <body>
 
-  <!-- ======= Header ======= -->
+   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
@@ -63,7 +114,6 @@
           </li>
           <!-- <li><a href="events.html">Competitions</a></li>
           <li><a href="events.html">Events</a></li> -->
-
       
           <li><a href="contact.html">Contact</a></li>
           <li><a href="#FAQs">FAQs</a></li>
@@ -77,112 +127,31 @@
     </div>
   </header><!-- End Header -->
 
-  <main id="main">
+  <main id="main" data-aos="fade-in">
 
-    <!-- ======= Breadcrumbs ======= -->
-    <div class="breadcrumbs" data-aos="fade-in">
-      <div class="container">
-        <h2>Contact Us</h2>
-        <p>If you have any questions, comments, or feedback, please feel free to contact us using the form below. We will get back to you as soon as possible or send us a message on instagram. You can also reach us by phone or email at the following address:</p>
-      </div>
-    </div><!-- End Breadcrumbs -->
+     <!-- ======= Breadcrumbs ======= -->
+                <div class="breadcrumbs crumbs">
+                    <div class="container">
+                    <h2>COMING SOON!</h2>
+                    <p>It's coming soon</p>
+                    
+                    </div>
+                </div><!-- End Breadcrumbs -->
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div data-aos="fade-up">
-        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.443637360811!2d3.3558533147065566!3d6.5916513241962145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b923f7233f37b%3A0x2c733a651c26cccf!2sProxynet%20Communications!5e0!3m2!1sen!2sng!4v1602170208652!5m2!1sen!2sng" frameborder="0" allowfullscreen></iframe>
-      </div>
-
-      <div class="container" data-aos="fade-up">
-
-        <div class="row mt-5">
-
-          <div class="col-lg-4">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                  <div>
-                    <h3>Head Office:</h3>
-                  <p>The Proxynet House, 5B Adedeji close,<br> off Opebi road, Ikeja , Lagos.
-                  <br></p>
-                  </div>
-                  <div>
-                   <h3> Abuja Office:</h3>
-                   <p>House 21, Street 693, Off Road 69, <br>
-                    Gwarimpa, Abuja.</p>
-                  </div>
-                  <div>
-                    <h3> Abidjan Office:</h3>
-                    <p>1st Floor Mbamba Building, <br> Cocody M'Badon Crossroads, <br> Embassy of China, <br> Abidjan, Côte d'Ivoire.</p>
-                   </div>
-                   <div>
-                    <h3> Ghana Office:</h3>
-                    <p> No 18 Nii Klu Osae Avenue, <br> Off American House, Accra Ghana.</p>
-                   </div>
-              </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p><a href="mailto:info@proxynetgroup.com " style="color:#444444;" >info@proxynetgroup.com </a></p>
-                <p><a href="mailto:ispace@proxynetgroup.com.com " style="color:#444444;" >ispace@proxynetgroup.com</a></p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <div>
-                  <h3>Head Office</h3>
-                  <p><a href="tel:+234 8124019660" style="color:#444444;">+234 8124019660</a></p>
-                  <h3> Abuja Office:</h3>
-                  <p><a href="tel:+234 9031829347" style="color:#444444;">+234 9031829347</a></p>
-                  <h3>Abidjan Office:</h3>
-                  <p><a href="tel:+22522468434" style="color:#444444;">+22522468434</a></p>
-                  <h3> Ghana Office:</h3>
-                  <p><a href="tel:+233302546703" style="color:#444444;">+233302546703</a></p>
-
-                </div>
-              </div>
-
-            </div>
-
-          </div>
-
-          <div class="col-lg-8 mt-5 mt-lg-0">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="10" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Contact Section -->
+    <!-- ======= Trainers Section ======= -->
+    <section id="trainers FAQs" class="trainers">
+      
+    </section><!-- End Trainers Section -->
 
   </main><!-- End #main -->
 
-  <!-- ======= Footer ======= -->
+
+   
+    
+
+        
+    </div>
+    <!-- ======= Footer ======= -->
   <footer id="footer">
 
     <div class="footer-top">
@@ -263,6 +232,25 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
-</body>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
 
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            this.parentElement.classList.toggle("active");
+
+            var pannel = this.nextElementSibling;
+
+            if (pannel.style.display === "block") {
+                pannel.style.display = "none";
+            } else {
+                pannel.style.display = "block"; // Fixed assignment here
+            }
+        });
+    }
+</script>
+
+</body>
 </html>

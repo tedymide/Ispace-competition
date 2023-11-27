@@ -27,6 +27,9 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  
+   <!-- font awesome -->
+   <script src="https://kit.fontawesome.com/1bf45af5b5.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -41,15 +44,14 @@
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a   href="index.html">Home</a></li>
+          <li><a class="active"  href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="Competitions.html">Competitions</a></li>
-          <li><a class="active" href="events.html">Events</a></li>
+          <li class="dropdown"><a href="./events.html"><span>Competition <i class="bi bi-chevron-down"></i></a>
+            <ul class="drop">
+              <li><a href="./inter-school.html" class="drop"><span class="drop">Inter-school Competitions</span></a></li>
+              <li><a href="./intra-school.html" class="drop"><span class="drop">Intra-school Competitions</span></a></li>
+              <li><a href="./virtual.html" class="drop"><span class="drop">Virtual Competitions</span></a></li>
 
-          <li class="dropdown"><a href="./awards.html"><span>Awards <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="./awards.html#primary"><span class="drop"> Primary / Upper Elementary</span></a></li>
-              <li><a href="./awards.html#secondary"><span class="drop"> Secondary / Middle School</span></a></li>
               <!-- <li class="dropdown"><a href="#"><span class="drop">Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="#"><span class="drop"> Deep Drop Down 1</span></a></li>
@@ -58,13 +60,18 @@
               </li>
             </ul>
           </li>
+          <!-- <li><a href="events.html">Competitions</a></li>
+          <li><a href="events.html">Events</a></li> -->
+
+      
           <li><a href="contact.html">Contact</a></li>
-          <li><a href="./FAQ.html">FAQs</a></li>
+          <li><a href="#FAQs">FAQs</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
+      
       </nav><!-- .navbar -->
-
-      <a href="./events.html" class="get-started-btn">Get Started</a>
+      <a href="login.html" class="get-started-btn">Login</a>
+      <a href="./register.html" class="get-started-btn">Get Started</a>
 
     </div>
   </header><!-- End Header -->
@@ -74,8 +81,8 @@
     <!-- ======= Breadcrumbs ======= -->
     <div class="breadcrumbs" data-aos="fade-in">
       <div class="container">
-        <h2>Events</h2>
-        <p>At iSPACE, we are thrilled to unveil a series of events that promise to spark creativity, foster collaboration, and showcase the talents of young minds in coding, robotics and graphics design. Our iSPACE coding and robotics club is gearing up for an exhilarating lineup of events that cater to diverse interests and skill sets.</p>
+        <h2>iSPACE Competitions</h2>
+        <p>At iSPACE, we are thrilled to unveil a series of competitions that promise to spark creativity, foster collaboration, and showcase the talents of young minds in coding, robotics and graphics design. Our iSPACE coding and robotics club is gearing up for an exhilarating lineup of events that cater to diverse interests and skill sets.</p>
       </div>
     </div><!-- End Breadcrumbs -->
 
@@ -93,7 +100,7 @@
                 <h5 class="card-title"><a href="">Inter-school Competitions</a></h5>
                 <p class="card-text">Join us in fostering healthy competition among schools! This category brings together bright minds from various institutions, promoting collaboration and friendly rivalry. From academic quizzes to cultural showcases, the inter-school segment covers a spectrum of talents.</p>
                 <div class="text-center register-comp">
-                  <a href="login.html" class="get-started-btn">Register</a>
+                  <a href="./inter-school.html" class="get-started-btn">Register</a>
                 </div>
               </div>
             </div>
@@ -107,7 +114,7 @@
                 <h5 class="card-title"><a href="">Intra-school Competitions</a></h5>
                 <p class="card-text">Celebrate the talents within your own school! Our intra-school competitions are designed to encourage participation at the grassroots level. It's an opportunity for every student to discover and showcase their unique skills, fostering a sense of pride within the school community.</p>
                 <div class="text-center register-comp">
-                  <a href="login.html" class="get-started-btn">Register</a>
+                  <a href="./intra-school.html" class="get-started-btn">Register</a>
                 </div>
               </div>
             </div>
@@ -121,7 +128,7 @@
                 <h5 class="card-title"><a href="">Virtual Competitions</a></h5>
                 <p class="card-text">Embrace the future of education with our virtual competitions. Students from across the globe can participate, transcending geographical boundaries. Virtual contests cover a wide array of subjects and activities, allowing participants to connect, learn, and compete from the comfort of their own space.</p>
                 <div class="text-center register-comp">
-                  <a href="login.html" class="get-started-btn">Register</a>
+                  <a href="./virtual.html" class="get-started-btn">Register</a>
                 </div>
               </div>
             </div>
@@ -155,18 +162,19 @@
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="./index.html">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="./about.html">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="./Competions.html">Competitions</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./events.html">Competitions</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="./competitions-details.html">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> -->
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Competitions</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="./competitions-details.html">Coding</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./coding-details.html">Coding</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="./competitions-details.html">Robotics</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="./competitions-details.html">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./design-details.html">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./competitions-details.html">Mobile Development</a></li>
             </ul>
           </div>
 
@@ -200,7 +208,7 @@
   </footer><!-- End Footer -->
 
   <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#header" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
