@@ -87,6 +87,7 @@
 <body>
 
     <!-- ======= Header ======= -->
+  <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
@@ -96,15 +97,14 @@
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a class="active"  href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="Competitions.html">Competitions</a></li>
-          <li><a href="events.html">Events</a></li>
+          <li class="dropdown"><a href="./events.html"><span>Competition <i class="bi bi-chevron-down"></i></a>
+            <ul class="drop">
+              <li><a href="./inter-school.html" class="drop"><span class="drop">Inter-school Competitions</span></a></li>
+              <li><a href="./intra-school.html" class="drop"><span class="drop">Intra-school Competitions</span></a></li>
+              <li><a href="./virtual.html" class="drop"><span class="drop">Virtual Competitions</span></a></li>
 
-          <li class="dropdown"><a href="./awards.html"><span >Awards <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#primary"><span class="drop"> Primary / Upper Elementary</span></a></li>
-              <li><a href="#secondary"><span class="drop"> Secondary / Middle School</span></a></li>
               <!-- <li class="dropdown"><a href="#"><span class="drop">Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="#"><span class="drop"> Deep Drop Down 1</span></a></li>
@@ -113,17 +113,22 @@
               </li>
             </ul>
           </li>
-          <li ><a href="contact.html">Contact</a></li>
-          <li><a href="./FAQ.html" class="active">FAQs</a></li>
+          <!-- <li><a href="events.html">Competitions</a></li>
+          <li><a href="events.html">Events</a></li> -->
 
+      
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#FAQs">FAQs</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
+      
       </nav><!-- .navbar -->
-
-      <a href="./events.html" class="get-started-btn">Get Started</a>
+      <a href="login.html" class="get-started-btn">Login</a>
+      <a href="./register.html" class="get-started-btn">Get Started</a>
 
     </div>
   </header><!-- End Header -->
+
   <main id="main" data-aos="fade-in">
 
      <!-- ======= Breadcrumbs ======= -->
@@ -136,7 +141,7 @@
                 </div><!-- End Breadcrumbs -->
 
     <!-- ======= Trainers Section ======= -->
-    <section id="trainers" class="trainers">
+    <section id="trainers FAQs" class="trainers">
       <div class="container wrapper" data-aos="fade-up">
           
                 <div class="awards-medal" id="primary">
@@ -369,7 +374,7 @@
 
         
     </div>
-      <!-- ======= Footer ======= -->
+     <!-- ======= Footer ======= -->
   <footer id="footer">
 
     <div class="footer-top">
@@ -383,7 +388,7 @@
             <strong>Phone:</strong><a href="tel:+234 8124019660" style="color:#444444;">+234 8124019660</a><br>
             <strong>Email:</strong> <a href="mailto:info@proxynetgroup.com " style="color:#444444;" >info@proxynetgroup.com </a></p>
             <ul>
-                <li><i class="bx bx-chevron-right"></i> <a href="./contact.html">More Contact</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./contact.html">More Contact</a></li>
             </ul>
           </div>
 
@@ -392,18 +397,19 @@
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="./index.html">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="./about.html">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="./Competions.html">Competitions</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./events.html">Competitions</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="./competitions-details.html">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> -->
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Competitions</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="./competitions-details.html">Coding</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./coding-details.html">Coding</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="./competitions-details.html">Robotics</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="./competitions-details.html">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./design-details.html">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./competitions-details.html">Mobile Development</a></li>
             </ul>
           </div>
 
@@ -437,7 +443,7 @@
   </footer><!-- End Footer -->
 
   <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#header" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>

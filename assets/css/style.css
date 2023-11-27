@@ -1,4 +1,8 @@
 
+*{
+  font-size:14px;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -214,6 +218,12 @@ h6 {
   border:  0px 0px 18px solid  #adb4b0fd;
   border-radius: 5%;
 }
+.drop:hover{
+  background-color: #f3f0f0;
+  padding: 10px 20px;
+  margin: 0px -25px 0px -20px;
+}
+
 .drop{
   color: #66a5ee;
   border:  0px 0px 18px solid  #676867fd;
@@ -559,11 +569,11 @@ section {
 }
 .partners{
   width: 200px;
-  height: auto;
+  height: 80px;
 }
 .transpar{
   background-color: #020115;
-   height: 75px;
+   /* height: 100px; */
    border-radius: 6px;
    padding: 20px ;
 }
@@ -1683,6 +1693,65 @@ height: 100%;
   margin: 100px 0 0;
 }
 /* 
+---------------------------------------------------------
+FaQs
+-------------------------------------------------------- */
+
+        .FAQs {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .accordion {
+            background-color: white;
+            column-rule: rgba(0, 0, 0, 0.8);
+            cursor: pointer;
+            font-size: 1.2rem;
+            width: 100%;
+            padding: 2rem 2.5rem;
+            border: 2rem;
+            outline: none;
+            transition: 0.4s;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+        }
+
+        .accordion i {
+            font-size: 1.6rem;
+        }
+
+    
+        .accordion:hover {
+            background-color: #f1f7f5;
+        }
+
+        .pannel {
+            padding: 0 2rem 2.5rem 2rem;
+            background-color: white;
+            overflow: hidden;
+            background-color: #f1f7f5;
+            display: none;
+        }
+
+        .pannel p {
+            color: rgba(0, 0, 0, 0.7);
+            font-size: 1.2rem;
+            line-height: 1.4;
+        }
+
+        .faq {
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            margin: 10px 0;
+        }
+
+        .faq.active {
+            border: none;
+        }
+
+/* 
 ----------------------------
 dashboard
 ----------------------------- */
@@ -1722,7 +1791,7 @@ a {
 }
 
 a:hover {
-  background-color: #f3f0f0;
+  /* background-color: #f3f0f0; */
   color: black;
 }
 
@@ -1740,4 +1809,11 @@ a:hover {
 
 .round {
   border-radius: 40%;
+}
+/* 
+-----------------------------------
+virtual competition
+----------------------------------- */
+.main-reg{
+  padding: 2% 10%;
 }
