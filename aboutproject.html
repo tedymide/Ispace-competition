@@ -60,57 +60,42 @@
   <main id="main">
     <section id="cource-details-tabs" class="cource-details-tabs" >
       <div class="container" data-aos="fade-up" id="top-section">
-        <div class="container px-4 py-5" id="featured-3">
-          <h2 class="pb-2 border-bottom">ABOUT THE COMPETITION</h2>
-          <div class="col-lg-9 mt-4 mt-lg-0">
-            <div class="tab-content">
-              <div class="tab-pane active show" id="tab-1">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3> Competition Categories:</h3>
-                     <ul class="fst-italic"; type="circle">
-                      <li class="fst-italic">Animation Challenge</li>
-                      <li class="fst-italic">Game Design Challenge</li>
-                      <li class="fst-italic">Graphics Design Challenge</li>
-                      <li class="fst-italic">3D Design Challenge</li>
-                     </ul>
-                    <h3>Why Participate?</h3>
-                    <ul class="fst-italic">
-                      <li class="fst-italic">Sharpen Skills: Hone your coding and design abilities in a challenging yet fun environment.</li>
-                      <li class="fst-italic">Creative Expression: Showcase your design prowess in the Design Sprint category.</li>
-                      <li class="fst-italic">Networking: Connect with like-minded students and professionals in the tech and design fields.</li>
-                      <li class="fst-italic">Prizes: Stand a chance to win exciting prizes and recognition for your achievements.</li>
-                    </ul>
-                    <h3>Rules And Details</h3>
-                    <p>The competition will be held online throughout the World (Primary/Upper Elementary & Secondary/Middle School & High School) during the November 27th 2023-15th December, 2023</p>
-                    <ul class="fst-italic">
-                      <li class="fst-italic">Challenges will be different for each level (Primary/Upper Elementary & Secondary/Middle School) and suitable for the relevant level.</li>
-                      <li class="fst-italic">Challenges will consist of Basic coding knowledge, Repeat loops, Variables and Arrays.</li>
-                      <li class="fst-italic">Awards will be given separately for each category (Primary/Upper Elementary & Secondary/Middle School). </li>
-                      <li class="fst-italic">The project that collects the most stars by completing will be the winner.</li>
-                      <li class="fst-italic">In the event of equality for code efficiency and the number of stars, time will be taken into account. In this case, the student that finishes in the shortest amount of time will be the winner.</li>
-                    </ul>
-                    <h3>Guidelines</h3>
-                    <ul class="fst-italic">
-                      <li class="fst-italic">Entry must include a block-based project for Primary and Middle grade, and a text-based or block-based project for Secondary Students to qualify.</li>
-                      <li class="fst-italic">Each entry must include a clear photograph of the participant.</li>
-                      <li class="fst-italic">Only one submission is allowed per entrant.</li>
-                      <li class="fst-italic">Each entry must provide parent/guardian or teacher consent and contact information (if under 18 years old).</li>
-                    </ul>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="./assets/img/child-at-computer-cartoon-boy.png" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
+
+        <div class="column" >
+          <div class="col-lg-12 ">
+            <ul class="nav nav-tabs flex-column " id="note">
+              <li class="nav-item note-info">
+                <h2>TELL US ABOUT YOUR PROJECT</h2>
+              </li>
+            </ul>
           </div>
-      </div>
+        </div>
+        <div class="tab-pane" id="tab-2">
+          <div class="row">
+            <div class="col-lg-8 details order-2 order-lg-1"> 
+            </div>
+            <div class="col-lg-4 text-center order-1 order-lg-2">
+              <img src="assets/img/course-details-tab-2.png" alt="" class="img-fluid">
+            </div>
+
+            <form action="/hssaadfg.php" method="post" role="form" class="php-email-form">
+              <div class="col-md-6 form-group">
+                <label for="comment">Title:</label>
+                <textarea class="form-control" id="comment" placeholder="Name of Project" name=""  required></textarea>
+              </div>
+              <div class="col-md-6 form-group">
+                <label for="comment">Tell us about your project:</label>
+                <textarea class="form-control" rows="5" id="comment" placeholder="Minimum word count is 50." minlength="50" required></textarea>
+              </div>
+            </form>
+    
+
       <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
         <div class="feature col">
           <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
             <i class="fa-solid fa-bullseye fa-bounce fa-xl"></i>
           </div>
-          <h3 class="fs-2 text-body-emphasis">Tell Us About Your Project</h3>
+          <h2 class="fs-2 text-body-emphasis">Tell Us About Your Project</h2>
           <p>Ready to bring your project to life? Tell us about it! We're here to turn your ideas into reality. Click below to get started.</p>
           <a href="aboutproject.html" class="btn btn-outline-primary btn-lg">Next</a>
         </div>
