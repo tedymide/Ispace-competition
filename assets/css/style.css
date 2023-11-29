@@ -1790,14 +1790,9 @@ dashboard
   padding: 8px 16px;
 }
 
-<<<<<<< HEAD
 .next:hover,
 .previous:hover {
   background-color: #f3f0f0;
-=======
-a:hover {
-  /* background-color: #f3f0f0; */
->>>>>>> 4b941aa07d12e4805a7b04213aaccbbfdb737ba8
   color: black;
 }
 
