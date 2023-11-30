@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Register - iSPACE Competition</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="../assets/img/ispce-icon.ico" rel="icon">
+    <link href="../assets/img/ispce-icon.ico" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="../assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="../assets/css/style.css" rel="stylesheet">
+    
+   <!-- font awesome -->
+   <script src="https://kit.fontawesome.com/1bf45af5b5.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            margin: 0 auto;
+        }
+    </style>
+	 <style>
+	.hide{
+		display:none !important;
+	}
+	</style>
+    </head>
+
+    <body>
+        
+        <main>
+            <section class="vh-100">
+                <div class="container-fluid h-custom">
+                <div class="row d-flex justify-content-center align-items-center h-100">
+                    <div class="col-md-9 col-lg-6 col-xl-5">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
+                        class="img-fluid" alt="Sample image">
+                    </div>
+                    <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+                    <!-- Pills navs -->
+                    <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" id="tab-login" data-mdb-toggle="pill" href="./register" role="tab"
+                            aria-controls="pills-login" aria-selected="true">Register</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="tab-register" data-mdb-toggle="pill" href="./login" role="tab"
+                            aria-controls="pills-register" aria-selected="false">Login</a>
+                        </li>
+                    </ul>
+                    <!-- Pills navs -->
+                    
+                    <!-- Pills content -->
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
+
+                        <form method="post" action="/user/register">
+                            <!-- <div class="text-center mb-3">
+                            <p>Register with:</p>
+                            <a type="button" class="btn btn-link btn-floating mx-1">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                    
+                            <a type="button" class="btn btn-link btn-floating mx-1">
+                                <i class="fab fa-google"></i>
+                            </a>
+                    
+                            <a type="button" class="btn btn-link btn-floating mx-1">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                    
+                            <a type="button" class="btn btn-link btn-floating mx-1">
+                                <i class="fab fa-github"></i>
+                            </a>
+
+                            </div>
+                    
+                            <!-- First Name input -->
+                            <div class="form-outline mb-4">
+							<label class="form-label" for="loginName">First Name</label>
+                            
+                            <input type="text" id="loginName" name="firstname" class="form-control" placeholder="Aladin"/>
+                            </div>
+        
+                            <!-- Middle Name input -->
+                            <div class="form-outline mb-4">
+							 <label class="form-label" for="loginName">Middle Name</label>
+                            <input type="text" id="loginName" name="middlename" class="form-control" placeholder="John"/>
+                           
+                            </div>
+        
+                            <!-- Last Name input -->
+                            <div class="form-outline mb-4">
+							 <label class="form-label" for="loginName">Last Name</label>
+                            <input type="text" id="loginName" name="lastname" class="form-control" placeholder="White"/>
+                           
+                            </div>
+        
+                            <!-- Email input -->
+                            <div class="form-outline mb-4">
+							  <label class="form-label" for="loginName">Email or username</label>
+                                <input type="email" id="loginName" name="email" class="form-control" placeholder="MJ@example.com"/>
+                              
+                            </div>
+                    
+                            <!-- Password input -->
+                            <div class="form-outline mb-4">
+							 <label class="form-label" for="loginPassword">Password</label>
+                            <input type="password" id="loginPassword" name="password" class="form-control" placeholder="123@34%r"/>
+                           
+                            </div>
+                            
+                            
+        
+                            <!-- Retype Password input -->
+                            <div class="form-outline mb-4">
+								    <label class="form-label" for="loginPassword">Confirm Password</label>
+                            
+                                <input type="password" id="loginPassword" name="confirm-password" class="form-control" placeholder="123@34%r"/>
+                            </div>
+                            
+                            <!-- upload input
+                            <div class="form-outline mb-4">
+                            <label class="form-label" for="upload image">Upload Image</label>
+                                <input type="file" id="loginPassword" class="form-control" />
+                                
+                            </div> -->
+        
+                            <!-- Gender input -->
+                            <div class="form-outline mb-4">
+                                <label class="form-check-label" for="Gender" >Gender</label>
+                                <select name="gender" required id="loginName" class="form-control">
+                                    <option value="">-Select-</option>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                </select>
+                            </div>
+
+                             <!-- Grade Select input -->
+                            <div class="form-outline mb-4">
+                                <label class="form-label" for="Grade" >Level</label>
+                                <select  name="level"required id="loginName" class="form-control">
+                                    <option value="">Choose Level</option>
+                                    <option value="Primary/Upper Elementary">Primary/Upper Elementary</option>
+                                    <option value="Secondary/Middle School">Secondary/Middle School</option>
+                                </select>
+                            </div>
+        
+                            <!-- Grade Select input -->
+                            <div class="form-outline mb-4">
+                                <label class="form-label" for="Grade" >Grade</label>
+                                <select  name="grade" required id="loginName" class="form-control">
+                                    <option value="">Choose Grade</option>
+                                    <option value="grade 1">Grade 1/ Year 1</option>
+                                    <option value="grade 2">Grade 2/ Year 2</option>
+                                    <option value="grade 3">Grade 3/ Year 3</option>
+                                    <option value="grade 4">Grade 4/ Year 4</option>
+                                    <option value="grade 5">Grade 5/ Year 5</option>
+                                    <option value="grade 6">Grade 6/ Year 6</option>
+                                    
+                                </select>
+                            </div>
+                            
+                           <div class="row">
+								<div class="col-md-12 d-flex <%=(message!="")?"show":"hide" %> justify-content-center alert alert-danger alert-dismissible">
+								<%=(message!="")?message:"" %>
+								</div>
+							</div>
+                    
+                            <!-- Submit button -->
+                            <button type="submit" type="submit" class="btn btn-primary btn-block mb-4">Sign up</button>
+                    
+                            <!-- Register buttons -->
+                            <div class="text-center">
+                            <p>Already a member? <a href="./login">Sign in</a></p>
+                            </div>
+                        </form>
+                        </div>
+                        <div class="tab-pane fade" id="pills-register" role="tabpanel" aria-labelledby="tab-register">
+                        <form>
+                            <div class="text-center mb-3">
+                            <p>Sign up with:</p>
+                            <a type="button" class="btn btn-link btn-floating mx-1">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                    
+                            <a type="button" class="btn btn-link btn-floating mx-1">
+                                <i class="fab fa-google"></i>
+                            </a>
+                    
+                            <a type="button" class="btn btn-link btn-floating mx-1">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                    
+                            <a type="button" class="btn btn-link btn-floating mx-1">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            </div>
+                    
+                            <p class="text-center">or:</p>
+                    
+                            <!-- Name input -->
+                            <div class="form-outline mb-4">
+                            <input type="text" id="registerName" class="form-control" />
+                            <label class="form-label" for="registerName">Name</label>
+                            </div>
+                    
+                            <!-- Email input -->
+                            <div class="form-outline mb-4">
+                            <input type="email" id="registerEmail" class="form-control" />
+                            <label class="form-label" for="registerEmail">Email</label>
+                            </div>
+                    
+                            <!-- Password input -->
+                            <div class="form-outline mb-4">
+                            <input type="password" id="registerPassword" class="form-control" />
+                            <label class="form-label" for="registerPassword">Password</label>
+                            </div>
+                    
+                            <!-- Repeat Password input -->
+                            <div class="form-outline mb-4">
+                            <input type="password" id="registerRepeatPassword" class="form-control" />
+                            <label class="form-label" for="registerRepeatPassword">Repeat password</label>
+                            </div>
+                    
+                            <!-- Checkbox -->
+                            <div class="form-check d-flex justify-content-center mb-4">
+                            <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck" checked
+                                aria-describedby="registerCheckHelpText" />
+                            <label class="form-check-label" for="registerCheck">
+                                I have read and agree to the terms
+                            </label>
+                            </div>
+                    
+                        
+                         
+                        </form>
+
+                        </div>
+                    </div>
+                    <!-- Pills content -->
+                    </div>
+                </div>
+                </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>    
