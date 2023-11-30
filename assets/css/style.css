@@ -1755,6 +1755,38 @@ FaQs
 ----------------------------
 dashboard
 ----------------------------- */
+#main{
+  margin: auto;
+  padding: 1%;
+  width: 100%;
+}
+.main{
+  padding: 1%;
+  margin: 10px;
+}
+
+.central{
+  text-align: center;
+  padding: 3px;
+}
+.centralize{
+  width: 100%;
+  margin:auto;
+  padding: -200px;
+}
+@media (max-width: 600px) {
+  .centralize{
+    width: 100%;
+  }
+  #main{
+    margin: auto;
+  }
+}
+
+#row{
+  width: 100%;
+  margin: 10px 50px;
+}
 #note{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -1782,6 +1814,18 @@ dashboard
     font-size: 13px;
   }
 
+}
+/* ------------control- button---------------------- */
+
+.control-btn{
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+.feature{
+  flex: 1;
+  height: 50px;
 }
 /* previous and next button */
 .prevnext {

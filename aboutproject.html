@@ -57,19 +57,30 @@
     </div>
   </header><!-- End Header -->
 
-  <main id="main">
-    <section id="cource-details-tabs" class="cource-details-tabs" >
+  <main id="main" class="centralize">
+  <section id="cource-details-tabs" class="cource-details-tabs centralize" >
       <div class="container" data-aos="fade-up" id="top-section">
 
         <div class="column" >
-          <div class="col-lg-12 ">
-            <ul class="nav nav-tabs flex-column " id="note">
-              <li class="nav-item note-info">
+          <div class="col-lg-12 central pb-2 border-bottom container px-3 py-4" id="featured-2">        
+            <!-- <ul class="nav nav-tabs flex-column " id="note"> -->
+              <!-- <li class="nav-item note-info"> -->
                 <h2>TELL US ABOUT YOUR PROJECT</h2>
-              </li>
-            </ul>
+              <!-- </li> -->
+            <!-- </ul> -->
           </div>
         </div>
+        <div class="form-outline mb-4  main">
+          <label class="form-group" for="Gender" >Choose Competition Categories</label>
+          <select name="Gender" id="loginName" class="form-control">
+              <option value="Categories">Categories</option>
+              <option value="Animation">Animation Challenge</option>
+              <option value="Game">Game Design Challenge</option>
+              <option value="Graphics">Graphics Design Challenge</option>
+              <option value="3D-design">3D Design Challenge</option>
+              <option value="mobile-app">Mobile app Development</option>
+          </select>
+      </div>
         <div class="form-group">
           <h2><label for="projectFile">Upload Your Passport Photo:</label></h2>
         </div>
@@ -124,18 +135,30 @@
         <div class="col-md-4 form-group">
           <input type="url" class="form-control" id="projectURL" placeholder="Enter URL" name="projectURL" required>
         </div>
-              <div style="margin-top: 1rem; margin-left: 22.5rem;">
-                <a href="submit.html" class="btn btn-outline-primary btn-lg"><i class="fa-solid fa-upload fa-bounce fa-sm" aria-hidden="true"></i> Submit</a>
-              </div>
+         
             </form>
+            
             <div class="row g-4 py-5 row-cols-1 row-cols-lg-4">
-              <div class="feature col">
-                <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+              <div class="">
+         
+                <div class="control-btn">
+                  <div class="feature">
+                    <div class="feature col">
+                          <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
                   <i class="fa-sharp fa-solid fa-book fa-shake fa-xl" style="color: #537efd;"></i>
                 </div>
-                <h3 class="fs-2 text-body-emphasis">About the Competition</h3>
-                <p>Ready to bring your project to life? Tell us about it! We're here to turn your ideas into reality. Click below to get started.</p>
+                <!-- <h3>About the Competition</h3>
+                <p>Ready to bring your project to life? Tell us about it! We're here to turn your ideas into reality. Click below to get started.</p> -->
                 <a href="Dashboard.html" class="btn btn-outline-primary btn-lg">Previous</a>
+                    </div>
+                  </div>
+                  <div class="feature">
+                    <div class="feature col">
+                      <!-- <i class="fs-2 mb-3 fa-sharp fa-solid fa-bullseye fa-bounce fa-xl" style="color: #537efd;"></i> -->
+                        <a href="submit.html" class="btn btn-outline-primary btn-lg"><i class="fa-solid fa-upload fa-bounce fa-sm" aria-hidden="true"></i> Submit</a>
+                    </div>
+                  </div>
+                </div>
               </div>
               <!-- <div class="feature col">
                 <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
