@@ -1779,7 +1779,7 @@ dashboard
   margin:auto; 
   padding:2%;
   box-shadow:0px 0px 10px lightgray ;  
-  border: 0.5px #444444 solid;
+  border: 0.2px lightgray solid;
   border-radius: 3px;
 }
 .submit-pt:hover{
