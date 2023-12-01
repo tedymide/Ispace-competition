@@ -1797,6 +1797,12 @@ dashboard
   #main{
     margin: auto;
   }
+  .submit-pt{
+    width: 98%;
+  }
+  .submit-pt:hover{
+    height: 100%;
+  }
 }
 
 #row{
