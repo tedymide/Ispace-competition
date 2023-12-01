@@ -57,12 +57,13 @@
     </div>
   </header><!-- End Header -->
 
-  <main id="main" class="centralize">
-  <section id="cource-details-tabs" class="cource-details-tabs centralize" >
+  <main id="main " >
+  <section id="cource-details-tabs" class="cource-details-tabs " >
       <div class="container" data-aos="fade-up" id="top-section">
-
-        <div class="column" >
-          <div class="col-lg-12 central pb-2 border-bottom container px-3 py-4" id="featured-2">        
+        <div class=" submit-pt">
+          
+        <div class="column " >
+          <div class="col-lg-12  pb-2 border-bottom container px-3 py-4" id="featured-2">        
             <!-- <ul class="nav nav-tabs flex-column " id="note"> -->
               <!-- <li class="nav-item note-info"> -->
                 <h2>TELL US ABOUT YOUR PROJECT</h2>
@@ -70,7 +71,7 @@
             <!-- </ul> -->
           </div>
         </div>
-        <div class="form-outline mb-4  main">
+        <div class="form-outline mb-4  main about-input">
           <label class="form-group" for="Gender" >Choose Competition Categories</label>
           <select name="Gender" id="loginName" class="form-control">
               <option value="Categories">Categories</option>
@@ -95,14 +96,14 @@
               <!-- <img src="assets/img/course-details-tab-2.png" alt="" class="img-fluid"> -->
             </div>
 
-            <form action="/hssaadfg.php" method="post" role="form" class="php-email-form">
-              <div class="col-md-6 form-group">
+            <form action="/hssaadfg.php" method="post" role="form" class="php-email-form ">
+              <div class="col-md-6 form-group mb-4 main about-input">
                 <label for="comment">Title:</label>
                 <textarea class="form-control" id="comment" placeholder="Name of Project" name=""  required></textarea>
               </div>
-              <div class="col-md-6 form-group">
+              <div class="col-md-6 form-group mb-4 main about-input">
                 <label for="comment">Tell us about your project:</label>
-                <textarea class="form-control" rows="5" id="comment" placeholder="Minimum word count is 50." minlength="50" required></textarea>
+                <textarea class="form-control" rows="5"  id="comment" placeholder="Minimum word count is 50." minlength="50" required></textarea>
               </div>
             </form>
     
@@ -132,44 +133,32 @@
         <div class="form-group">
           <h2><label for="projectFile">Upload Your Project URL:</label></h2>
         </div>
-        <div class="col-md-4 form-group">
-          <input type="url" class="form-control" id="projectURL" placeholder="Enter URL" name="projectURL" required>
+        <div class="col-md-4 form-group about-input">
+          <input type="url" class="form-control about-input" id="projectURL" placeholder="Enter URL" name="projectURL" required>
         </div>
          
             </form>
             
-            <div class="row g-4 py-5 row-cols-1 row-cols-lg-4">
-              <div class="">
+            
+              <div class="control-btn" style="width: 100%">
          
-                <div class="control-btn">
-                  <div class="feature">
-                    <div class="feature col">
-                          <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
-                  <i class="fa-sharp fa-solid fa-book fa-shake fa-xl" style="color: #537efd;"></i>
+                <div class="feature col">
+                    <!-- <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3"> -->
+                      <i class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3 fa-sharp fa-solid fa-back-arrow fa-shake fa-xl" style="color: #537efd;"></i>
+                    <!-- </div> -->
+                 
+                  <a href="Dashboard.html" class="btn btn-outline-primary btn-lg"><i class="fa-solid fa-sharp fa-shake fa-lg fa-circle-chevron-left"></i> Previous</a>
                 </div>
-                <!-- <h3>About the Competition</h3>
-                <p>Ready to bring your project to life? Tell us about it! We're here to turn your ideas into reality. Click below to get started.</p> -->
-                <a href="Dashboard.html" class="btn btn-outline-primary btn-lg">Previous</a>
-                    </div>
-                  </div>
-                  <div class="feature">
-                    <div class="feature col">
-                      <!-- <i class="fs-2 mb-3 fa-sharp fa-solid fa-bullseye fa-bounce fa-xl" style="color: #537efd;"></i> -->
-                        <a href="submit.html" class="btn btn-outline-primary btn-lg"><i class="fa-solid fa-upload fa-bounce fa-sm" aria-hidden="true"></i> Submit</a>
-                    </div>
-                  </div>
+              
+              
+                <div class="feature col ">
+                  <!-- <i class="fs-2 mb-3 fa-sharp fa-solid fa-bullseye fa-bounce fa-xl" style="color: #537efd;"></i> -->
+                    <a href="submit.html" class="btn btn-outline-primary btn-lg submit-btn-m"><i class="fa-solid fa-upload fa-bounce fa-sm" aria-hidden="true"></i> Submit</a>
                 </div>
               </div>
-              <!-- <div class="feature col">
-                <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
-                  <i class="fa-solid fa-upload fa-bounce fa-xl" aria-hidden="true"></i>
-                </div>
-                <h3 class="fs-2 text-body-emphasis">Upload</h3>
-                <p>Elevate your ideas by seamlessly uploading your projects. Share your project via video uploading.</p>
-                <a href="uploadfile.html" class="btn btn-outline-primary btn-lg">Next</a>
-              </div> -->
+        </div>
       </div>
-    </section>
+  </section>
   </main>
 
  <!-- ======= Footer ======= -->
@@ -191,24 +180,24 @@
         </div>
 
         <div class="col-lg-2 col-md-6 footer-links">
-          <!-- <h4>Useful Links</h4>
-          <ul>
-            <li><i class="bx bx-chevron-right"></i> <a href="./index.html">Home</a></li>
+          <!-- <h4>Useful Links</h4> -->
+          <!-- <ul> -->
+            <!-- <li><i class="bx bx-chevron-right"></i> <a href="./index.html">Home</a></li>
             <li><i class="bx bx-chevron-right"></i> <a href="./about.html">About us</a></li>
             <li><i class="bx bx-chevron-right"></i> <a href="./events.html">Competitions</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="./competitions-details.html">Terms of service</a></li> -->
+            <li><i class="bx bx-chevron-right"></i> <a href="./about">Terms of service</a></li> -->
             <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> -->
-          <!-- </ul> -->
+          </ul>
         </div>
 
         <div class="col-lg-3 col-md-6 footer-links">
-          <!-- <h4>Our Competitions</h4>
-          <ul>
-            <li><i class="bx bx-chevron-right"></i> <a href="./coding-details.html">Coding</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="./competitions-details.html">Robotics</a></li>
+          <!-- <h4>Our Competitions</h4> -->
+          <!-- <ul> -->
+            <!-- <li><i class="bx bx-chevron-right"></i> <a href="./coding-details.html">Coding</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="./robotics-details.html">Robotics</a></li>
             <li><i class="bx bx-chevron-right"></i> <a href="./design-details.html">Graphic Design</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="./mobile-details.html">Mobile Development</a></li>
-          </ul> -->
+            <li><i class="bx bx-chevron-right"></i> <a href="./mobile-details.html">Mobile Development</a></li> -->
+          <!-- </ul> -->
         </div>
 
         <div class="col-lg-4 col-md-6 footer-newsletter">
