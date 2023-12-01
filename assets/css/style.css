@@ -589,10 +589,19 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-@media (min-width: 1000px) {
+@media (max-width: 800px) {
   .about-img{
     margin: auto 0;
     height: 450px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+}
+@media (min-width: 800px) {
+  .about-img{
+    margin: auto 0;
+    height: 450px;
+    border-radius: 6px;
   }
 }
 .about .content h3 {
@@ -858,13 +867,14 @@ section {
 }
 
 .award-img{
-  height: 220px;
+  height: 200px;
+  width: 95%;
 
 }
 @media (min-width:380px) and (max-width: 900px) {
   .award-img{
-    height: 180px;
-    width: auto;
+    height: 150px;
+    width: 95%;
   }
 }
 
