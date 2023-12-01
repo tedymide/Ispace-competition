@@ -580,6 +580,12 @@ section {
   width: 200px;
   height: 80px;
 }
+@media (max-width: 800px){
+  .partners{
+    width: 100%;
+    height: 40px;
+  }
+}
 .transpar{
   background-color: #020115;
    /* height: 100px; */
