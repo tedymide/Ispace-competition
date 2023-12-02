@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Events - iSPACE Competition</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>FAQ - iSPACE-competition</title>
 
   <!-- Favicons -->
   <link href="assets/img/ispce-icon.ico" rel="icon">
@@ -27,14 +25,68 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  
-   <!-- font awesome -->
-   <script src="https://kit.fontawesome.com/1bf45af5b5.js" crossorigin="anonymous"></script>
-</head>
 
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/1bf45af5b5.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .accordion {
+            background-color: white;
+            column-rule: rgba(0, 0, 0, 0.8);
+            cursor: pointer;
+            font-size: 1.2rem;
+            width: 100%;
+            padding: 2rem 2.5rem;
+            border: 2rem;
+            outline: none;
+            transition: 0.4s;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+        }
+
+        .accordion i {
+            font-size: 1.6rem;
+        }
+
+    
+        .accordion:hover {
+            background-color: #f1f7f5;
+        }
+
+        .pannel {
+            padding: 0 2rem 2.5rem 2rem;
+            background-color: white;
+            overflow: hidden;
+            background-color: #f1f7f5;
+            display: none;
+        }
+
+        .pannel p {
+            color: rgba(0, 0, 0, 0.7);
+            font-size: 1.2rem;
+            line-height: 1.4;
+        }
+
+        .faq {
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            margin: 10px 0;
+        }
+
+        .faq.active {
+            border: none;
+        }
+    </style>
+</head>
 <body>
 
-  <!-- ======= Header ======= -->
+   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
@@ -44,7 +96,7 @@
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a   href="index.html">Home</a></li>
+          <li><a  href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li class="dropdown"><a href="./events.html"><span class="active">Competition <i class="bi bi-chevron-down"></i></a>
             <ul class="drop">
@@ -65,7 +117,7 @@
 
       
           <li><a href="contact.html">Contact</a></li>
-          <!-- <li><a href="#FAQs">FAQs</a></li> -->
+          <li><a href="#FAQs">FAQs</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       
@@ -76,70 +128,31 @@
     </div>
   </header><!-- End Header -->
 
-  <main id="main">
+  <main id="main" data-aos="fade-in">
 
-    <!-- ======= Breadcrumbs ======= -->
-    <div class="breadcrumbs" data-aos="fade-in">
-      <div class="container">
-        <h2>iSPACE Competitions</h2>
-        <p>At iSPACE, we are thrilled to unveil a series of competitions that promise to spark creativity, foster collaboration, and showcase the talents of young minds in coding, robotics and graphics design. Our iSPACE coding and robotics club is gearing up for an exhilarating lineup of events that cater to diverse interests and skill sets.</p>
-      </div>
-    </div><!-- End Breadcrumbs -->
+     <!-- ======= Breadcrumbs ======= -->
+                <div class="breadcrumbs crumbs">
+                    <div class="container">
+                    <h2>COMING SOON!</h2>
+                    <p>It's coming soon</p>
+                    
+                    </div>
+                </div><!-- End Breadcrumbs -->
 
-    <!-- ======= Events Section ======= -->
-    <section id="events" class="events">
-      <div class="container" data-aos="fade-up">
-
-        <div class="row">
-          <div class="col-md-6 d-flex align-items-stretch">
-            <div class="card">
-              <div class="card-img">
-                <img src="assets/img/inter school.jpg" alt="Two child coding">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title"><a href="">Inter-school Competitions</a></h5>
-                <p class="card-text">Join us in fostering healthy competition among schools! This category brings together bright minds from various institutions, promoting collaboration and friendly rivalry. From academic quizzes to cultural showcases, the inter-school segment covers a spectrum of talents.</p>
-                <div class="text-center register-comp">
-                  <a href="./inter-school.html" class="get-started-btn">Register</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 d-flex align-items-stretch">
-            <div class="card">
-              <div class="card-img">
-                <img src="assets/img/intra-school.jpg" alt="Two child coding">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title"><a href="">Intra-school Competitions</a></h5>
-                <p class="card-text">Celebrate the talents within your own school! Our intra-school competitions are designed to encourage participation at the grassroots level. It's an opportunity for every student to discover and showcase their unique skills, fostering a sense of pride within the school community.</p>
-                <div class="text-center register-comp">
-                  <a href="./intra-school.html" class="get-started-btn">Register</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 d-flex align-items-stretch">
-            <div class="card">
-              <div class="card-img">
-                <img src="assets/img/events-1.jpg" alt="...">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title"><a href="">Virtual Competitions</a></h5>
-                <p class="card-text">Embrace the future of education with our virtual competitions. Students from across the globe can participate, transcending geographical boundaries. Virtual contests cover a wide array of subjects and activities, allowing participants to connect, learn, and compete from the comfort of their own space.</p>
-                <div class="text-center register-comp">
-                  <a href="./virtual.html" class="get-started-btn">Register</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-      </div>
-    </section><!-- End Events Section -->
+    <!-- ======= Trainers Section ======= -->
+    <section id="trainers FAQs" class="trainers">
+      
+    </section><!-- End Trainers Section -->
 
   </main><!-- End #main -->
 
-  <!-- ======= Footer ======= -->
+
+   
+    
+
+        
+    </div>
+     <!-- ======= Footer ======= -->
   <footer id="footer">
 
     <div class="footer-top">
@@ -172,9 +185,9 @@
             <h4>Our Competitions</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="./coding-details.html">Coding</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="./robotics.html">Robotics</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./robotics-details.html">Robotics</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="./design-details.html">Graphic Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="./Digital.html">Digital Literacy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./mobile-details.html">Mobile Development</a></li>
             </ul>
           </div>
 
@@ -220,6 +233,25 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
-</body>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
 
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            this.parentElement.classList.toggle("active");
+
+            var pannel = this.nextElementSibling;
+
+            if (pannel.style.display === "block") {
+                pannel.style.display = "none";
+            } else {
+                pannel.style.display = "block"; // Fixed assignment here
+            }
+        });
+    }
+</script>
+
+</body>
 </html>
