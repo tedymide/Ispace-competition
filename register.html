@@ -30,11 +30,13 @@
     
    <!-- font awesome -->
    <script src="https://kit.fontawesome.com/1bf45af5b5.js" crossorigin="anonymous"></script>
+  
     <style>
         *{
             margin: 0 auto;
         }
     </style>
+ 
     </head>
 
     <body>
@@ -86,42 +88,48 @@
 
                             </div>
                     
-                            <!-- First Name input -->
+                            <-- First Name input -->
                             <div class="form-outline mb-4">
-                            <input type="text" id="loginName" class="form-control" placeholder="Aladin"/>
-                            <label class="form-label" for="loginName">First Name</label>
+                             <label class="form-label" for="loginName">First Name</label>
+                             <input type="text" id="loginName" class="form-control" placeholder="Aladin"/>
+                           
                             </div>
         
                             <!-- Middle Name input -->
                             <div class="form-outline mb-4">
-                            <input type="text" id="loginName" class="form-control" placeholder="John"/>
-                            <label class="form-label" for="loginName">Middle Name</label>
+                             <label class="form-label" for="loginName">Middle Name</label>
+                             <input type="text" id="loginName" class="form-control" placeholder="John"/>
+                           
                             </div>
         
                             <!-- Last Name input -->
                             <div class="form-outline mb-4">
-                            <input type="text" id="loginName" class="form-control" placeholder="White"/>
-                            <label class="form-label" for="loginName">Last Name</label>
+                             <label class="form-label" for="loginName">Last Name</label>
+                             <input type="text" id="loginName" class="form-control" placeholder="White"/>
+                           
                             </div>
         
                             <!-- Email input -->
                             <div class="form-outline mb-4">
-                                <input type="email" id="loginName" class="form-control" placeholder="MJ@example.com"/>
-                                <label class="form-label" for="loginName">Email or username</label>
+                                 <label class="form-label" for="loginName">Email or username</label>
+                                 <input type="email" id="loginName" class="form-control" placeholder="MJ@example.com"/>
+                               
                             </div>
                     
                             <!-- Password input -->
                             <div class="form-outline mb-4">
-                            <input type="password" id="loginPassword" class="form-control" placeholder="123@34%r"/>
                             <label class="form-label" for="loginPassword">Password</label>
+                            <input type="password" id="loginPassword" class="form-control" placeholder="123@34%r"/>
+                            
                             </div>
                             
                             
         
                             <!-- Retype Password input -->
                             <div class="form-outline mb-4">
-                                <input type="password" id="loginPassword" class="form-control" placeholder="123@34%r"/>
-                                <label class="form-label" for="loginPassword">Confirm Password</label>
+                                <label class="form-label" for="login-ConfirmPassword">Confirm Password</label>
+                                <input type="password" id="login-ConfirmPassword" class="form-control" placeholder="123@34%r"/>
+                                
                             </div>
                             
                             <!-- upload input
@@ -142,20 +150,24 @@
                             </div>
                             <!-- ------------country------- -->
                             <div class="form-outline mb-4">
-                                <input type="text" id="Country" class="form-control" placeholder="Country"/>
                                 <label class="form-label" for="country">Country</label>
+                                <input type="text" id="Country" class="form-control" placeholder="Country"/>
+                                
                             </div>
 
                             <!-- ---------------state---------- -->
                             <div class="form-outline mb-4">
-                                <input type="text" id="state" class="form-control" placeholder="state"/>
-                                <label class="form-label" for="loginPassword"> State</label>
+                                 <label class="form-label" for="state"> State</label>
+                                 <input type="text" id="state" class="form-control" placeholder="state"/>
+                               
+                                
                             </div>
 
                             <!-- ---------school name---------- -->
                             <div class="form-outline mb-4">
+                               <label class="form-label" for="Schoolname">School Name </label>
                                 <input type="text" id="Schoolname" class="form-control" placeholder="School Name"/>
-                                <label class="form-label" for="Schoolname">School Name </label>
+                                
                             </div>
 
                              <!-- Grade Select input -->
@@ -267,13 +279,13 @@
                             <!-- Password input -->
                             <div class="form-outline mb-4">
                             <input type="password" id="registerPassword" class="form-control" />
+                            <input type="checkbox" onclick="togglePasswordVisibility()"> Show Password
                             <label class="form-label" for="registerPassword">Password</label>
                             </div>
                     
                             <!-- Repeat Password input -->
                             <div class="form-outline mb-4">
                             <input type="password" id="registerRepeatPassword" class="form-control" />
-                            <label class="form-label" for="registerRepeatPassword">Repeat password</label>
                             </div>
                     
                             <!-- Checkbox -->
