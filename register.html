@@ -140,14 +140,31 @@
                                     <option value="Female">Female</option>
                                 </select>
                             </div>
+                            <!-- ------------country------- -->
+                            <div class="form-outline mb-4">
+                                <input type="text" id="Country" class="form-control" placeholder="Country"/>
+                                <label class="form-label" for="country">Country</label>
+                            </div>
+
+                            <!-- ---------------state---------- -->
+                            <div class="form-outline mb-4">
+                                <input type="text" id="state" class="form-control" placeholder="state"/>
+                                <label class="form-label" for="loginPassword"> State</label>
+                            </div>
+
+                            <!-- ---------school name---------- -->
+                            <div class="form-outline mb-4">
+                                <input type="text" id="Schoolname" class="form-control" placeholder="School Name"/>
+                                <label class="form-label" for="Schoolname">School Name </label>
+                            </div>
 
                              <!-- Grade Select input -->
                             <div class="form-outline mb-4">
                                 <label class="form-label" for="Grade" >Level</label>
                                 <select name="Level" id="loginName" class="form-control">
                                     <option value="Gender">Choose Level</option>
-                                    <option value="Male">Primary/Upper Elementary</option>
-                                    <option value="Female">Secondary/Middle School</option>
+                                    <option value="Male">Primary School</option>
+                                    <option value="Female">Secondary School</option>
                                 </select>
                             </div>
         
@@ -155,15 +172,41 @@
                             <div class="form-outline mb-4">
                                 <label class="form-label" for="Grade" >Grade</label>
                                 <select name="Gender" id="loginName" class="form-control">
-                                    <option value="Grade">Choose Grade</option>
+                                  <option value="Grade">Choose Grade</option>
+                                   <optgroup label="Primary School">
+                                    
                                     <option value="grade 1">Grade 1/ Year 1</option>
                                     <option value="grade 2">Grade 2/ Year 2</option>
                                     <option value="grade 3">Grade 3/ Year 3</option>
                                     <option value="grade 4">Grade 4/ Year 4</option>
                                     <option value="grade 5">Grade 5/ Year 5</option>
                                     <option value="grade 6">Grade 6/ Year 6</option>
+                                   </optgroup>
+                                   <optgroup label="Secondary School">
+                                    <!-- <option value="Grade">Choose Grade</option> -->
+                                    <option value="grade 1">Grade 7/ Year 7</option>
+                                    <option value="grade 2">Grade 8/ Year 8</option>
+                                    <option value="grade 3">Grade 9/ Year 9</option>
+                                    <option value="grade 4">Grade 10/ Year 10</option>
+                                    <option value="grade 5">Grade 11/ Year 11</option>
+                                    <option value="grade 6">Grade 12/ Year 12</option>
+                                   </optgroup>
                                     
                                 </select>
+                            </div>
+
+                            <!-- <div>
+                                <label for="car">choose car</label>
+                                <select name="car" id="car">
+                                    <optgroup label="germany">
+                                        <option value="volvo">volvo</option>
+                                        <option value="volx">volx</option>
+                                    </optgroup>
+                                    <optgroup label="USA">
+                                        <option value="asphat"> asphat</option>
+                                        <option value="ishery">ishery</option>
+                                    </optgroup>
+                                </select> -->
                             </div>
                             
                             <!-- 2 column grid layout -->
