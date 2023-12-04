@@ -587,7 +587,7 @@ section {
   }
 }
 .transpar{
-  background-color: #020115;
+  background-color: #0e0e0e;
    /* height: 100px; */
    border-radius: 6px;
    padding: 20px ;
@@ -1703,20 +1703,62 @@ flex: 1;
 height: 1px;
 background: #444444;
 }
+
+/* .pills-nav{
+  position: fixed;
+  width: 30%;
+  
+}
+.pills-con{
+  margin-top: 10rem;
+} */
+
+/* .r-custom{
+  height: calc(100% - 73px);
+  overflow: auto;
+} */
 .h-custom {
 height: calc(100% - 73px);
-overflow: auto;
+overflow-y: auto;
+overflow-wrap: normal;
+flex: 1;
+box-sizing: border-box;
 }
 @media (max-width: 550px) {
 .h-custom {
-  overflow: auto;
-height: 100%;
+  overflow-y: auto;
+  overflow-wrap:normal;
+  height: 100%;
+  flex: 1;
+  box-sizing: border-box;
 }
 }
 
 #top-section{
   margin: 100px 0 0;
 }
+
+.login-main{
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+
+.log-reg{
+  width: 600px;
+  position: fixed;
+  align-content:start;
+  margin: -62.5rem 0 0;
+  padding: 10%;
+}
+@media (min-width:100px) and (max-width: 900px) {
+  .log-reg{
+    position: relative;
+    align-content:start;
+    margin: auto;
+  }
+}
+
 /* 
 ---------------------------------------------------------
 FaQs
