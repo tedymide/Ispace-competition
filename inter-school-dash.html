@@ -46,59 +46,46 @@
   <body>
     <header class="py-3 mb-3 border-bottom">
       <div
-        class="container-fluid d-grid gap-3 align-items-center"
-        style="grid-template-columns: 1fr 2fr"
+        class="container-fluid justify-content-center d-grid align-right"
+        style="grid-template-columns: 2fr 2fr 1fr"
       >
-        <div class="dropdown">
-          <a href="Dashboard.html" class="logo me-auto"
+        <div class="dropdown m-3">
+          <a href="school-competition.html" class="logo me-auto"
             ><img
               src="assets/img/ispace-logo (2).png"
               width="100px"
               alt="Ispace"
               class="img-fluid"
           /></a>
-          <ul class="dropdown-menu text-small shadow">
-            <li>
-              <a class="dropdown-item active" href="#" aria-current="page"
-                >Overview</a
-              >
-            </li>
-            <li><a class="dropdown-item" href="#">Inventory</a></li>
-            <li><a class="dropdown-item" href="#">Customers</a></li>
-            <li><a class="dropdown-item" href="#">Products</a></li>
-            <li><hr class="dropdown-divider" /></li>
-            <li><a class="dropdown-item" href="#">Reports</a></li>
-            <li><a class="dropdown-item" href="#">Analytics</a></li>
-          </ul>
         </div>
 
-        <div class="d-flex align-items-center">
-          <div
-            class="d-flex translate w-100 me-3 form-control"
-            id="google_translate_element"
-          ></div>
+        <div
+          class="d-flex translate   form-control"
+          id="google_translate_element"
+        ></div>
 
-          <div class="flex-shrink-0 dropdown">
-            <a
-              href="#"
-              class="d-block link-body-emphasis text-decoration-none dropdown-toggle"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              <img
-                src="https://randomuser.me/api/portraits/men/59.jpg"
-                alt="mdo"
-                width="50"
-                height="50"
-                class="rounded-circle"
-              />
-            </a>
-            <ul class="dropdown-menu text-small shadow">
-              <li><a class="dropdown-item" href="#">New project...</a></li>
-              <li><a class="dropdown-item" href="#">Settings</a></li>
-              <li><a class="dropdown-item" href="#">Profile</a></li>
-              <li><hr class="dropdown-divider" /></li>
-              <li><a class="dropdown-item" href="#">Sign out</a></li>
+        <div class="flex-shrink-0 dropdown d-flex align-items-center" >
+          <a
+            href="#"
+            class="d-block link-body-emphasis text-decoration-none dropdown-toggle"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <img
+              src="https://randomuser.me/api/portraits/men/59.jpg"
+              alt="mdo"
+              width="50"
+              height="50"
+              class="rounded-circle"
+            />
+          </a>
+          <ul class="dropdown-menu text-small shadow">
+            <li><a class="dropdown-item" href="#">Sign out</a></li>
+          </ul>
+          <div class="ms-5" >
+            <ul class="nav nav-pills">
+            
+              <li class="nav-item "><a href="#" class="nav-link active">Submission</a></li>
             </ul>
           </div>
         </div>
@@ -115,12 +102,8 @@
             width="72"
             height="72"
           />
-          <h2>Welcome School name</h2>
-          <p class="lead">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-            obcaecati cum minus provident eum est eligendi, nulla accusamus
-            voluptate nostrum.
-          </p>
+          <h2>Welcome iSpace British Academy</h2>
+          <p class="lead">This is the iSPACE coding and robotics</p>
         </div>
 
         <div class="row g-5">
@@ -133,13 +116,29 @@
               <li class="list-group-item d-flex justify-content-between lh-sm">
                 <div>
                   <h6 class="my-0">School Name</h6>
-                  <small class="text-body-secondary">Brief description</small>
+                  <small class="text-body-secondary"
+                    >iSpace British Academy
+                  </small>
                 </div>
               </li>
               <li class="list-group-item d-flex justify-content-between lh-sm">
                 <div>
-                  <h6 class="my-0">Selected Competetion</h6>
-                  <small class="text-body-secondary">Brief description</small>
+                  <h6 class="my-0">Directors Name</h6>
+                  <small class="text-body-secondary"> Miss Abiola </small>
+                </div>
+              </li>
+              <li class="list-group-item d-flex justify-content-between lh-sm">
+                <div>
+                  <h6 class="my-0">School Address</h6>
+                  <small class="text-body-secondary"
+                    >69 Road Gwarimpa, Abuja
+                  </small>
+                </div>
+              </li>
+              <li class="list-group-item d-flex justify-content-between lh-sm">
+                <div>
+                  <h6 class="my-0">School Email</h6>
+                  <small class="text-body-secondary">School@example.com</small>
                 </div>
               </li>
               <li class="list-group-item d-flex justify-content-between lh-sm">
@@ -148,10 +147,13 @@
                     <h6 class="my-0">Names Of Participant</h6>
                     <br />
                   </div>
-                  <div class=" d-flex justify-content-between align-items-center mb-3  p-3">
-                    
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3 p-3"
+                  >
                     <small class="text-body-secondary m-2"
-                      >Smart Uche Monday <span  class=" m-3 text-primary "> Grade </span>
+                      >Smart Uche Monday
+                      <span class="m-1 text-primary"> Upper Primary </span>
+                      <span class="text-danger"> Robotics</span>
                     </small>
                     <span class="align-right">
                       <img
@@ -162,10 +164,13 @@
                         class="rounded-circle"
                     /></span>
                   </div>
-                  <div class=" d-flex justify-content-between align-items-center mb-3  p-3">
-                    
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3 p-3"
+                  >
                     <small class="text-body-secondary m-2"
-                      >Smart Uche Monday  <span  class=" m-3 text-primary "> Grade </span>
+                      >Smart Uche Monday
+                      <span class="m-1 text-primary"> Upper Primary </span>
+                      <span class="text-danger"> Robotics</span>
                     </small>
                     <span class="align-right">
                       <img
@@ -176,10 +181,13 @@
                         class="rounded-circle"
                     /></span>
                   </div>
-                  <div class=" d-flex justify-content-between align-items-center mb-3  p-3">
-                    
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3 p-3"
+                  >
                     <small class="text-body-secondary m-2"
-                      >Smart Uche Monday  <span  class=" m-3 text-primary "> Grade </span>
+                      >Smart Uche Monday
+                      <span class="m-1 text-primary"> Upper Primary </span>
+                      <span class="text-danger"> Robotics</span>
                     </small>
                     <span class="align-right">
                       <img
@@ -190,21 +198,20 @@
                         class="rounded-circle"
                     /></span>
                   </div>
-                
                 </div>
               </li>
               <li
                 class="list-group-item d-flex justify-content-between bg-body-tertiary"
               >
                 <div class="text-danger">
-                  <h6 class="my-0">Submission Date</h6>
-                  <small>24 Septeember 2024</small>
+                  <h6 class="my-0">Final Submission Date</h6>
+                  <small>24 September 2024</small>
                 </div>
               </li>
             </ul>
           </div>
           <div class="col-md-7 col-lg-8">
-            <h4 class="mb-3">Update School Informaton</h4>
+            <h4 class="mb-3">Update Your Information</h4>
             <form class="needs-validation" novalidate>
               <div class="row g-3">
                 <div class="col-sm-6">
@@ -213,83 +220,104 @@
                     type="text"
                     class="form-control"
                     id="firstName"
-                    placeholder=""
+                    placeholder="School name"
                     value=""
                     required
                   />
-                  <div class="invalid-feedback">
-                    Valid first name is required.
-                  </div>
+                  <div class="invalid-feedback">Valid name is required.</div>
                 </div>
 
                 <div class="col-sm-6">
-                  <label for="lastName" class="form-label"> Location </label>
+                  <label for="lastName" class="form-label">
+                    Directors Name
+                  </label>
                   <input
                     type="text"
                     class="form-control"
                     id="lastName"
-                    placeholder=""
+                    placeholder="Directors name "
                     value=""
                     required
                   />
-                  <div class="invalid-feedback">
-                    Valid last name is required.
-                  </div>
+                  <div class="invalid-feedback">Valid name is required.</div>
                 </div>
 
                 <div class="col-12">
-                  <label for="username" class="form-label"
-                    > First Participant name </label
-                  >
+                  <label for="username" class="form-label">
+                    First Participant name
+                  </label>
+                  <div class="input-group">
+                    <span class="input-group-text bg-primary white">
+                      Name, Grade
+                    </span>
+                    <input
+                      type="text"
+                      aria-label="First name"
+                      placeholder="name"
+                      class="form-control"
+                    />
+                    <select class="form-select" id="activity" required>
+                      <option value="">Pick a Grade</option>
+                      <option>Lower Primary</option>
+                      <option>Middle</option>
+                      <option>Upper Primary</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <label for="username" class="form-label">
+                    Second Participant name
+                  </label>
 
                   <div class="input-group">
-                    <span class="input-group-text">Student Name  and Grade</span>
-                    <input type="text" aria-label="First name" class="form-control">
-                    <input type="text" aria-label="Grade" class="form-control">
+                    <span class="input-group-text bg-primary white">
+                      Name, Grade
+                    </span>
+                    <input
+                      type="text"
+                      aria-label="First name"
+                      placeholder="name"
+                      class="form-control"
+                    />
+                    <select class="form-select" id="activity" required>
+                      <option value="">Pick a Grade</option>
+                      <option>Lower Primary</option>
+                      <option>Middle</option>
+                      <option>Upper Primary</option>
+                    </select>
                   </div>
-
-
-                  
                 </div>
                 <div class="col-12">
-                  <label for="username" class="form-label"
-                    > Second Participant name </label
-                  >
-
+                  <label for="username" class="form-label">
+                    Third Participant name
+                  </label>
                   <div class="input-group">
-                    <span class="input-group-text">Student Name  and Grade</span>
-                    <input type="text" aria-label="First name" class="form-control">
-                    <input type="text" aria-label="Grade" class="form-control">
+                    <span class="input-group-text bg-primary white">
+                      Name, Grade
+                    </span>
+                    <input
+                      type="text"
+                      aria-label="First name"
+                      placeholder="name"
+                      class="form-control"
+                    />
+                    <select class="form-select" id="activity" required>
+                      <option value="">Pick a Grade</option>
+                      <option>Lower Primary</option>
+                      <option>Middle</option>
+                      <option>Upper Primary</option>
+                    </select>
                   </div>
-
-
-                  
                 </div>
+
                 <div class="col-12">
-                  <label for="username" class="form-label"
-                    > Third Participant name </label
-                  >
+                  <label for="email" class="form-label"> School Email </label>
 
-                  <div class="input-group">
-                    <span class="input-group-text">Student Name  and Grade</span>
-                    <input type="text" aria-label="First name" class="form-control">
-                    <input type="text" aria-label="Grade" class="form-control">
-                  </div>
-
-
-                  
-                </div>
-               
-                <div class="col-12">
-                  <label for="email" class="form-label"
-                    > School Email </label>
-                    
-                  
                   <input
                     type="email"
                     class="form-control"
                     id="email"
-                    placeholder="you@example.com"
+                    placeholder="school@example.com"
                   />
                   <div class="invalid-feedback">
                     Please enter a valid email address for shipping updates.
@@ -297,52 +325,67 @@
                 </div>
 
                 <div class="col-12">
-                  <label for="address" class="form-label">Address</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="address"
-                    placeholder="1234 Main St"
-                    required
-                  />
-                  <div class="invalid-feedback">
-                    Please enter your shipping address.
-                  </div>
-                </div>
+                  <label for="address2" class="form-label">Address </label>
 
-                <div class="col-12">
-                  <label for="address2" class="form-label"
-                    >Address 2
-                    <span class="text-body-secondary">(Optional)</span></label
-                  >
                   <input
                     type="text"
                     class="form-control"
                     id="address2"
-                    placeholder="Apartment or suite"
+                    placeholder="School address "
                   />
                 </div>
-
-                <div class="col-md-5">
-                  <label for="country" class="form-label">Competetion </label>
-                  <select class="form-select" id="country" required>
-                    <option value="">Choose...</option>
+                <div class="col-md-4">
+                  <label for="state" class="form-label"
+                    >Pick Participant Activity
+                  </label>
+                  <select class="form-select" id="activity" required>
+                    <option value="">Pick an Activity</option>
                     <option>Robotics</option>
                     <option>Coding</option>
-                    <option>Design</option>
-                    <option>IoT</option>
                     <option>Animation</option>
                   </select>
-                  <div class="invalid-feedback">
-                    Please select a valid country.
-                  </div>
                 </div>
-
                 <div class="col-md-4">
                   <label for="state" class="form-label">State</label>
                   <select class="form-select" id="state" required>
                     <option value="">Choose...</option>
-                    <option>California</option>
+                    <option value="Abia">Abia</option>
+                    <option value="Adamawa">Adamawa</option>
+                    <option value="Akwa Ibom">Akwa Ibom</option>
+                    <option value="Anambra">Anambra</option>
+                    <option value="Bauchi">Bauchi</option>
+                    <option value="Bayelsa">Bayelsa</option>
+                    <option value="Benue">Benue</option>
+                    <option value="Borno">Borno</option>
+                    <option value="Cross River">Cross River</option>
+                    <option value="Delta">Delta</option>
+                    <option value="Ebonyi">Ebonyi</option>
+                    <option value="Edo">Edo</option>
+                    <option value="Ekiti">Ekiti</option>
+                    <option value="Enugu">Enugu</option>
+                    <option value="FCT">Federal Capital Territory</option>
+                    <option value="Gombe">Gombe</option>
+                    <option value="Imo">Imo</option>
+                    <option value="Jigawa">Jigawa</option>
+                    <option value="Kaduna">Kaduna</option>
+                    <option value="Kano">Kano</option>
+                    <option value="Katsina">Katsina</option>
+                    <option value="Kebbi">Kebbi</option>
+                    <option value="Kogi">Kogi</option>
+                    <option value="Kwara">Kwara</option>
+                    <option value="Lagos">Lagos</option>
+                    <option value="Nasarawa">Nasarawa</option>
+                    <option value="Niger">Niger</option>
+                    <option value="Ogun">Ogun</option>
+                    <option value="Ondo">Ondo</option>
+                    <option value="Osun">Osun</option>
+                    <option value="Oyo">Oyo</option>
+                    <option value="Plateau">Plateau</option>
+                    <option value="Rivers">Rivers</option>
+                    <option value="Sokoto">Sokoto</option>
+                    <option value="Taraba">Taraba</option>
+                    <option value="Yobe">Yobe</option>
+                    <option value="Zamfara">Zamfara</option>
                   </select>
                   <div class="invalid-feedback">
                     Please provide a valid state.
@@ -423,8 +466,8 @@
             />
           </div>
         </div>
-      
-<button class=" m-5 btn btn-primary"> Upload images </button>
+
+        <button class="m-5 btn btn-primary">Upload images</button>
       </div>
     </div>
 
