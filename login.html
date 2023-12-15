@@ -59,6 +59,15 @@
                     <!-- Pills content -->
                     <div class="tab-content">
                         <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
+                            <div class="form-outline mb-4">
+                                <input type="radio" id="individual" placeholder="individual">
+                                <label for="individual" class="form-label">Individual</label>
+                                
+                            </div>
+                            <div class="form-outline mb-4">
+                                <input type="radio" id="school" placeholder="school">
+                                <label for="school" class="form-label">School</label>
+                            </div>
                         <form>
                             <div class="text-center mb-3">
                             <p>Sign in:</p>
@@ -75,7 +84,7 @@
                             <input type="password" id="loginPassword" class="form-control" placeholder="********"/>
                             <label class="form-label" for="loginPassword">Password</label>
                             </div>
-                    
+                            <!---------------------------->
                             <!-- 2 column grid layout -->
                             <div class="row mb-4">
                             <div class="col-md-6 d-flex justify-content-center">
@@ -91,80 +100,75 @@
                                 <a href="#!">Forgot password?</a>
                             </div>
                             </div>
+
+                             <!-- Checkbox -->
+                             <div class="form-check d-flex justify-content-center mb-4">
+                                <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck" checked
+                                    aria-describedby="registerCheckHelpText" />
+                                <label class="form-check-label" for="registerCheck">
+                                    I have read and agree to the terms
+                                </label>
+                                </div>
                     
                             <!-- Submit button -->
-                            <a href="./Dashboard.html" type="submit" class="btn btn-primary btn-block mb-4">Sign in</a>
+                              <!-- Submit button -->
+                              <a onclick="location.href = 'Dashboard.html'" type="submit" class="btn btn-primary btn-block mb-3">Sign in </a>
                     
                             <!-- Register buttons -->
                             <div class="text-center">
                             <p>Not a member? <a href="./register.html">Register</a></p>
                             </div>
                         </form>
-                        </div>
-                        <div class="tab-pane fade" id="pills-register" role="tabpanel" aria-labelledby="tab-register">
                         <form>
                             <div class="text-center mb-3">
-                            <p>Sign up with:</p>
-                            <a type="button" class="btn btn-link btn-floating mx-1">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                    
-                            <a type="button" class="btn btn-link btn-floating mx-1">
-                                <i class="fab fa-google"></i>
-                            </a>
-                    
-                            <a type="button" class="btn btn-link btn-floating mx-1">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                    
-                            <a type="button" class="btn btn-link btn-floating mx-1">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            </div>
-                    
-                            <p class="text-center">or:</p>
-                    
-                            <!-- Name input -->
-                            <div class="form-outline mb-4">
-                            <input type="text" id="registerName" class="form-control" />
-                            <label class="form-label" for="registerName">Name</label>
-                            </div>
-                    
-                            <!-- Username input -->
-                            <div class="form-outline mb-4">
-                            <input type="text" id="registerUsername" class="form-control" />
-                            <label class="form-label" for="registerUsername">Username</label>
+                            <p>Sign in:</p>
                             </div>
                     
                             <!-- Email input -->
                             <div class="form-outline mb-4">
-                            <input type="email" id="registerEmail" class="form-control" />
-                            <label class="form-label" for="registerEmail">Email</label>
+                            <input type="email" id="loginName" class="form-control" placeholder="MC@exaple.com"/>
+                            <label class="form-label" for="loginName">Email</label>
                             </div>
                     
                             <!-- Password input -->
                             <div class="form-outline mb-4">
-                            <input type="password" id="registerPassword" class="form-control"/>
-                            <label class="form-label" for="registerPassword">Password</label>
+                            <input type="password" id="loginPassword" class="form-control" placeholder="********"/>
+                            <label class="form-label" for="loginPassword">Password</label>
+                            </div>
+                            <!---------------------------->
+                            <!-- 2 column grid layout -->
+                            <div class="row mb-4">
+                            <div class="col-md-6 d-flex justify-content-center">
+                                <!-- Checkbox -->
+                                <div class="form-check mb-3 mb-md-0">
+                                <input class="form-check-input" type="checkbox" value="" id="loginCheck" checked />
+                                <label class="form-check-label" for="loginCheck"> Remember me </label>
+                                </div>
                             </div>
                     
-                            <!-- Repeat Password input -->
-                            <div class="form-outline mb-4">
-                            <input type="password" id="registerRepeatPassword" class="form-control" />
-                            <label class="form-label" for="registerRepeatPassword">Repeat password</label>
+                            <div class="col-md-6 d-flex justify-content-center">
+                                <!-- Simple link -->
+                                <a href="#!">Forgot password?</a>
                             </div>
-                    
-                            <!-- Checkbox -->
-                            <div class="form-check d-flex justify-content-center mb-4">
-                            <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck" checked
-                                aria-describedby="registerCheckHelpText" />
-                            <label class="form-check-label" for="registerCheck">
-                                I have read and agree to the terms
-                            </label>
                             </div>
+
+                             <!-- Checkbox -->
+                             <div class="form-check d-flex justify-content-center mb-4">
+                                <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck" checked
+                                    aria-describedby="registerCheckHelpText" />
+                                <label class="form-check-label" for="registerCheck">
+                                    I have read and agree to the terms
+                                </label>
+                                </div>
                     
                             <!-- Submit button -->
-                            <a onclick="location.href = 'Dashboard.html'" type="submit" class="btn btn-primary btn-block mb-3">Sign in</a>
+                              <!-- Submit button -->
+                              <a onclick="location.href = 'Dashboard.html'" type="submit" class="btn btn-primary btn-block mb-3">Sign in </a>
+                    
+                            <!-- Register buttons -->
+                            <div class="text-center">
+                            <p>Not a member? <a href="./register.html">Register</a></p>
+                            </div>
                         </form>
                         </div>
                     </div>
