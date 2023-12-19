@@ -114,11 +114,11 @@
                     <div class="collapse collapse-horizontal" id="collapseWidthExample">
                       <div class="card card-body" style="width: 500px;">
                        <ol>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, qui?</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, qui?</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, qui?</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, qui?</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, qui?</li>
+                        <li class="fst-italic">Challenges will be different for each level (Primary/Upper Elementary & Secondary/Middle School) and suitable for the relevant level.</li> <br>
+                        <li class="fst-italic">Challenges will consist of Basic coding knowledge, Repeat loops, Variables and Arrays.</li><br>
+                        <li class="fst-italic">Awards will be given separately for each category (Primary/Upper Elementary & Secondary/Middle School). </li><br>
+                        <li class="fst-italic">The project that collects the most stars by completing will be the winner.</li><br>
+                        <li class="fst-italic">In the event of equality for code efficiency and the number of stars, time will be taken into account. In this case, the student that finishes in the shortest amount of time will be the winner.</li>
                        </ol>
                       </div>
                     </div>
@@ -132,28 +132,124 @@
         <div class="album py-5 bg-body-tertiary">
           <div class="container">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-              <div class="col">
-                <div class="card shadow-sm">
-                  <img  class="bd-placeholder-img card-img-top img-fluid" src="https://randomuser.me/api/portraits/men/59.jpg" width="100%"
-                  height="250px" alt="" srcset="">
+              <div class="col col-lg-12 ">
+                <div class="shadow-sm" id="school-pics">
+                  <img  class="bd-placeholder-img img-fluid" src="https://randomuser.me/api/portraits/men/59.jpg"  alt="" srcset="" id="school-pics">
                   <div class="card-body">
                     <div class=" row card-text">
                         <p class="text-body-secondary">Name: <span> Smart Uche Monday </span></p>
                         <p class="text-body-secondary">Grade: <span> Upper Grade  </span></p>
                         <p class="text-body-secondary">Activity : <span> Robotics </span></p>
-
+                        <div class="">
+          
+                          <div class="column " >
+                            <div class="col-lg-12  pb-2 border-bottom container px-3 py-4" id="featured-2">        
+                              <!-- <ul class="nav nav-tabs flex-column " id="note"> -->
+                                <!-- <li class="nav-item note-info"> -->
+                                  <h2>TELL US ABOUT YOUR PROJECT</h2>
+                                <!-- </li> -->
+                              <!-- </ul> -->
+                            </div>
+                          </div>
+                          <div class="form-outline mb-4  main about-input">
+                            <label class="form-group" for="Gender" >Choose Competition Categories</label>
+                            <select name="Gender" id="loginName" class="form-control">
+                                <option value="Categories">Categories</option>
+                                <option value="Animation">Animation Challenge</option>
+                                <option value="Game">Game Design Challenge</option>
+                                <option value="Graphics">Graphics Design Challenge</option>
+                                <option value="3D-design">3D Design Challenge</option>
+                                <option value="mobile-app">Mobile app Development</option>
+                            </select>
+                        </div>
+                          <div class="form-group">
+                            <h2><label for="projectFile">Upload Your Passport Photo:</label></h2>
+                          </div>
+                          <div>
+                            <input type="file" class="form-control-file" id="projectFile" accept="images/*" name="Upload file" required>
+                          </div>
+                          <div class="tab-pane" id="tab-2" style="margin-top: 1.5rem;">
+                            <div class="row">
+                              <div class="col-lg-8 details order-2 order-lg-1"> 
+                              </div>
+                              <div class="col-lg-4 text-center order-1 order-lg-2">
+                                <!-- <img src="assets/img/course-details-tab-2.png" alt="" class="img-fluid"> -->
+                              </div>
+                  
+                              <form action="/hssaadfg.php" method="post" role="form" class="php-email-form ">
+                                <div class="col-md-6 form-group mb-4 main about-input">
+                                  <label for="comment">Title:</label>
+                                  <textarea class="form-control" id="comment" placeholder="Name of Project" name=""  required></textarea>
+                                </div>
+                                <div class="col-md-6 form-group mb-4 main about-input">
+                                  <label for="comment">Tell us about your project:</label>
+                                  <textarea class="form-control" rows="5"  id="comment" placeholder="Minimum word count is 50." minlength="50" required></textarea>
+                                </div>
+                              </form>
+                      
+                          <div class="container px-3 py-4" id="featured-2">
+                            <h2 class="pb-2 border-bottom">Upload Your Project Files</h2>
+                          </div>
+                          <div class="form-group">
+                            <h2><label for="projectFile">Upload Your Consent Form:</label></h2>
+                          </div>
+                          
+                          <div>
+                            <input type="file" class="form-control-file" id="projectFile" accept="images/*" name="Upload file" required>
+                          </div>
+                          <div class="form-group">
+                            <h2><label for="projectFile">Upload Your Project Video:</label></h2>
+                          </div>
+                          <div>
+                            <input type="file" class="form-control-file" id="projectFile" accept="video/*" name="Upload file" required>
+                          </div>
+                          <div class="form-group">
+                            <h2><label for="projectFile">Upload Your Project Photos:</label></h2>
+                          </div>
+                          
+                          <div>
+                            <input type="file" class="form-control-file" id="projectFile" accept="images/*" name="Upload file" required>
+                          </div>
+                          <div class="form-group">
+                            <h2><label for="projectFile">Upload Your Project URL:</label></h2>
+                          </div>
+                          <div class="col-md-4 form-group about-input">
+                            <input type="url" class="form-control about-input" id="projectURL" placeholder="Enter URL" name="projectURL" required>
+                          </div>
+                           
+                              </form>
+                              
+                              
+                                <div class="control-btn" style="width: 100%">
+                           
+                                  <div class="feature col">
+                                      <!-- <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3"> -->
+                                        <i class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3 fa-sharp fa-solid fa-back-arrow fa-shake fa-xl" style="color: #537efd;"></i>
+                                      <!-- </div> -->
+                                   
+                                    <!-- <a href="Dashboard.html" class="btn btn-outline-primary btn-lg"><i class="fa-solid fa-sharp fa-shake fa-lg fa-circle-chevron-left"></i> Previous</a> -->
+                                  </div>
+                                
+                                
+                                  <div class="feature col submit" id="submit">
+                                    <!-- <i class="fs-2 mb-3 fa-sharp fa-solid fa-bullseye fa-bounce fa-xl" style="color: #537efd;"></i> -->
+                                      <a href="submit.html" class="btn btn-outline-primary btn-lg submit-btn-m " id="submit"><i class="fa-solid fa-upload fa-bounce fa-sm" aria-hidden="true"></i> Submit</a>
+                                  </div>
+                                </div>
+                          </div>
                       
                     </div>
-                    <div class="input-group mb-3">
+                    
+                    <!-- <div class="input-group mb-3">
                         <button class="btn btn-primary" type="button" id="button-addon1">Submit  Video Link </button>
                         <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
                       </div>
               
-                    </div>
+                    </div> -->
                   </div>
                 </div>
-            
-              <div class="col">
+                            
+              <!-- <div class="col">
                 <div class="card shadow-sm">
                   <img  class="bd-placeholder-img card-img-top img-fluid" src="https://randomuser.me/api/portraits/men/59.jpg" width="100%"
                   height="250px" alt="" srcset="">
@@ -192,7 +288,7 @@
                       </div>
               
                     </div>
-                  </div>
+                  </div> -->
                 </div>
             
     
@@ -235,7 +331,7 @@
             </div>
 
             <div class="col-lg-2 col-md-6 footer-links">
-              <h4>Useful Links</h4>
+              <!-- <h4>Useful Links</h4> -->
             </div>
 
             <div class="col-lg-3 col-md-6 footer-links"></div>
