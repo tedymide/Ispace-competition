@@ -2106,3 +2106,22 @@ virtual competition
   display: block !important;
 
 }
+
+/* -------------inter school--------------- */
+.inter-img{
+  width: 99% !important;
+  margin: auto 0 !important;
+  height: 550px !important;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  /* border-radius: 6px !important; */
+
+
+}
+@media (min-width: 800px) {
+  .inter-img{
+    margin: auto 0 !important;
+    height: 550px;
+    border-radius: 6px !important;
+  }
+}
