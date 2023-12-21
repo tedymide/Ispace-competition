@@ -2125,3 +2125,11 @@ virtual competition
     border-radius: 6px !important;
   }
 }
+
+/* ------------------inter submission------- */
+
+#photo-added{
+  display: flex;
+  width: 100%;
+
+}
