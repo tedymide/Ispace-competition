@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Register - iSPACE Competition</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/ispce-icon.ico" rel="icon">
+    <link href="assets/img/ispce-icon.ico" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    
+   <!-- font awesome -->
+   <script src="https://kit.fontawesome.com/1bf45af5b5.js" crossorigin="anonymous"></script>
+  
+    <style>
+        *{
+            margin: 0 auto;
+        }
+    </style>
+ 
+    </head>
+
+    <body>
+        
+        <main>
+            <section class="vh-100 individual-section">
+                <div class="container-fluid  r-cutom h-custom">
+                    <div class="row d-flex justify-content-center align-items-center h-100 ">
+                        <div class="col-md-9 col-lg-6 col-xl-5">
+                            <a href="./index.html"><img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
+                            class="img-fluid log-reg" alt="Sample image"></a>
+                        </div>
+                        <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1 ">
+                            <div class="">
+                                 <!-- Pills navs -->
+                            <div class="pills-nav">
+                                <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <a class="nav-link active pills-con" id="tab-login" data-mdb-toggle="pill" href="./register.html" role="tab"
+                                        aria-controls="pills-login" aria-selected="true">Register</a>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <a class="nav-link pills-con" id="tab-register" data-mdb-toggle="pill" href="./login.html" role="tab"
+                                        aria-controls="pills-register" aria-selected="false">Login</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- Pills navs -->
+                            
+                            <!-- Pills content -->
+                            <div class="tab-content pills-con">
+                                <div class="tab-pane fade show active pills-con" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
+                                    <div class="form-outline mb-4">
+                                        <input type="radio" id="individual" placeholder="individual">
+                                        <label for="individual" class="form-label">Individual</label>
+                                        
+                                    </div>
+                                    <!-- <div class="form-outline mb-4"> -->
+                                        <input type="radio" id="school" placeholder="school">
+                                        <label for="school" class="form-label">School</label>
+                                    <!-- </div> -->
+                                <form method="post" action="" class="" >
+                                    <!-- <div class="text-center mb-3">
+                                    <p>Register with:</p>
+                                    <a type="button" class="btn btn-link btn-floating mx-1">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                            
+                                    <a type="button" class="btn btn-link btn-floating mx-1">
+                                        <i class="fab fa-google"></i>
+                                    </a>
+                            
+                                    <a type="button" class="btn btn-link btn-floating mx-1">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                            
+                                    <a type="button" class="btn btn-link btn-floating mx-1">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+
+                                    </div>
+                            
+                                    <-- First Name input -->
+                                    <div class="form-outline mb-4">
+                                    <label class="form-label" for="loginName">First Name</label>
+                                    <input type="text" id="loginName" class="form-control" placeholder="Aladin"/>
+                                
+                                    </div>
+                
+                                    <!-- Middle Name input -->
+                                    <div class="form-outline mb-4">
+                                    <label class="form-label" for="loginName">Middle Name</label>
+                                    <input type="text" id="loginName" class="form-control" placeholder="John"/>
+                                
+                                    </div>
+                
+                                    <!-- Last Name input -->
+                                    <div class="form-outline mb-4">
+                                    <label class="form-label" for="loginName">Last Name</label>
+                                    <input type="text" id="loginName" class="form-control" placeholder="White"/>
+                                
+                                    </div>
+                
+                                    <!-- Email input -->
+                                    <div class="form-outline mb-4">
+                                        <label class="form-label" for="loginName">Email or username</label>
+                                        <input type="email" id="loginName" class="form-control" placeholder="MJ@example.com"/>
+                                    
+                                    </div>
+                            
+                                    <!-- Password input -->
+                                    <div class="form-outline mb-4">
+                                    <label class="form-label" for="loginPassword">Password</label>
+                                    <input type="password" id="loginPassword" class="form-control" placeholder="123@34%r"/>
+                                    
+                                    </div>
+                                    
+                                    
+                
+                                    <!-- Retype Password input -->
+                                    <div class="form-outline mb-4">
+                                        <label class="form-label" for="login-ConfirmPassword">Confirm Password</label>
+                                        <input type="password" id="login-ConfirmPassword" class="form-control" placeholder="123@34%r"/>
+                                        
+                                    </div>
+                                    
+                                    <!-- upload input
+                                    <div class="form-outline mb-4">
+                                    <label class="form-label" for="upload image">Upload Image</label>
+                                        <input type="file" id="loginPassword" class="form-control" />
+                                        
+                                    </div> -->
+                
+                                    <!-- Gender input -->
+                                    <div class="form-outline mb-4">
+                                        <label class="form-check-label" for="Gender" >Gender</label>
+                                        <select name="Gender" id="loginName" class="form-control">
+                                            <option value="Gender">Gender</option>
+                                            <option value="Male">Male</option>
+                                            <option value="Female">Female</option>
+                                        </select>
+                                    </div>
+                                    <!-- ------------country------- -->
+                                    <div class="form-outline mb-4">
+                                        <label class="form-label" for="country">Country</label>
+                                        <input type="text" id="Country" class="form-control" placeholder="Country"/>
+                                        
+                                    </div>
+
+                                    <!-- ---------------state---------- -->
+                                    <div class="form-outline mb-4">
+                                        <label class="form-label" for="state"> State</label>
+                                        <input type="text" id="state" class="form-control" placeholder="state"/>
+                                    
+                                        
+                                    </div>
+
+                                    <!-- ---------school name---------- -->
+                                    <div class="form-outline mb-4">
+                                    <label class="form-label" for="Schoolname">School Name </label>
+                                        <input type="text" id="Schoolname" class="form-control" placeholder="School Name"/>
+                                        
+                                    </div>
+
+                                    <!-- Grade Select input -->
+                                    <div class="form-outline mb-4">
+                                        <label class="form-label" for="Grade" >Level</label>
+                                        <select name="Level" id="loginName" class="form-control">
+                                            <option value="Gender">Choose Level</option>
+                                            <option value="Male">Primary School</option>
+                                            <option value="Female">Secondary School</option>
+                                        </select>
+                                    </div>
+                
+                                    <!-- Grade Select input -->
+                                    <div class="form-outline mb-4">
+                                        <label class="form-label" for="Grade" >Grade</label>
+                                        <select name="Gender" id="loginName" class="form-control">
+                                        <option value="Grade">Choose Grade</option>
+                                        <optgroup label="Primary School">
+                                            
+                                            <option value="grade 1">Grade 1/ Year 1</option>
+                                            <option value="grade 2">Grade 2/ Year 2</option>
+                                            <option value="grade 3">Grade 3/ Year 3</option>
+                                            <option value="grade 4">Grade 4/ Year 4</option>
+                                            <option value="grade 5">Grade 5/ Year 5</option>
+                                            <option value="grade 6">Grade 6/ Year 6</option>
+                                        </optgroup>
+                                        <optgroup label="Secondary School">
+                                            <!-- <option value="Grade">Choose Grade</option> -->
+                                            <option value="grade 1">Grade 7/ Year 7</option>
+                                            <option value="grade 2">Grade 8/ Year 8</option>
+                                            <option value="grade 3">Grade 9/ Year 9</option>
+                                            <option value="grade 4">Grade 10/ Year 10</option>
+                                            <option value="grade 5">Grade 11/ Year 11</option>
+                                            <option value="grade 6">Grade 12/ Year 12</option>
+                                        </optgroup>
+                                            
+                                        </select>
+                                    </div>
+
+                                    <!-- <div>
+                                        <label for="car">choose car</label>
+                                        <select name="car" id="car">
+                                            <optgroup label="germany">
+                                                <option value="volvo">volvo</option>
+                                                <option value="volx">volx</option>
+                                            </optgroup>
+                                            <optgroup label="USA">
+                                                <option value="asphat"> asphat</option>
+                                                <option value="ishery">ishery</option>
+                                            </optgroup>
+                                        </select> -->
+                                    </div>
+                                    
+                                    <!-- 2 column grid layout -->
+                                    <div class="row mb-4">
+                                        <div class="col-md-6 d-flex justify-content-center">
+                                        </div>
+                                
+                                        <div class="col-md-6 d-flex justify-content-center">
+                                            <!-- Simple link -->
+                                            <!-- <a href="#!">Forgot password?</a> -->
+                                        </div>
+                                    </div>
+                            
+                                    <!-- Submit button -->
+                                    <a href="./Dashboard.html" type="submit" class="btn btn-primary btn-block mb-4">Sign up</a>
+                            
+                                    <!-- Register buttons -->
+                                    <div class="text-center">
+                                    <p>Already a member? <a href="./login.html">Sign in</a></p>
+                                    </div>
+                                </form>
+                                </div>
+                                <div class="tab-pane fade" id="pills-register" role="tabpanel" aria-labelledby="tab-register">
+                                <form>
+                                    <div class="text-center mb-3">
+                                    <p>Sign up with:</p>
+                                    <a type="button" class="btn btn-link btn-floating mx-1">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                            
+                                    <a type="button" class="btn btn-link btn-floating mx-1">
+                                        <i class="fab fa-google"></i>
+                                    </a>
+                            
+                                    <a type="button" class="btn btn-link btn-floating mx-1">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                            
+                                    <a type="button" class="btn btn-link btn-floating mx-1">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    </div>
+                            
+                                    <p class="text-center">or:</p>
+                            
+                                    <!-- Name input -->
+                                    <div class="form-outline mb-4">
+                                    <input type="text" id="registerName" class="form-control" />
+                                    <label class="form-label" for="registerName">Name</label>
+                                    </div>
+                            
+                                    <!-- Email input -->
+                                    <div class="form-outline mb-4">
+                                    <input type="email" id="registerEmail" class="form-control" />
+                                    <label class="form-label" for="registerEmail">Email</label>
+                                    </div>
+                            
+                                    <!-- Password input -->
+                                    <div class="form-outline mb-4">
+                                    <input type="password" id="registerPassword" class="form-control" />
+                                    <input type="checkbox" onclick="togglePasswordVisibility()"> Show Password
+                                    <label class="form-label" for="registerPassword">Password</label>
+                                    </div>
+                            
+                                    <!-- Repeat Password input -->
+                                    <div class="form-outline mb-4">
+                                    <input type="password" id="registerRepeatPassword" class="form-control" />
+                                    </div>
+                            
+                                    <!-- Checkbox -->
+                                    <div class="form-check d-flex justify-content-center mb-4">
+                                    <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck" checked
+                                        aria-describedby="registerCheckHelpText" />
+                                    <label class="form-check-label" for="registerCheck">
+                                        I have read and agree to the terms
+                                    </label>
+                                    </div>
+                            
+                                
+                                
+                                </form>
+
+                                </div>
+                            </div>
+                        <!-- Pills content -->
+                    </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="vh-100 school-section">
+                <div class="container-fluid  r-cutom h-custom">
+                    <div class="row d-flex justify-content-center align-items-center h-100 ">
+                        <div class="col-md-9 col-lg-6 col-xl-5">
+                            <!-- <a href="./index.html"><img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
+                            class="img-fluid log-reg" alt="Sample image"></a> -->
+                        </div>
+                        <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1 ">
+                            <div class="">
+                                 <!-- Pills navs -->
+                            <!-- <div class="pills-nav">
+                                <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <a class="nav-link active pills-con" id="tab-login" data-mdb-toggle="pill" href="./register.html" role="tab"
+                                        aria-controls="pills-login" aria-selected="true">Register</a>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <a class="nav-link pills-con" id="tab-register" data-mdb-toggle="pill" href="./login.html" role="tab"
+                                        aria-controls="pills-register" aria-selected="false">Login</a>
+                                    </li>
+                                </ul>
+                            </div> -->
+                            <!-- Pills navs -->
+                            
+                            <!-- Pills content -->
+                            <div class="tab-content pills-con">
+                                <div class="tab-pane fade show active pills-con" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
+
+                                <form method="post" action="" class="" >
+                                    <!-- <div class="text-center mb-3">
+                                    <p>Register with:</p>
+                                    <a type="button" class="btn btn-link btn-floating mx-1">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                            
+                                    <a type="button" class="btn btn-link btn-floating mx-1">
+                                        <i class="fab fa-google"></i>
+                                    </a>
+                            
+                                    <a type="button" class="btn btn-link btn-floating mx-1">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                            
+                                    <a type="button" class="btn btn-link btn-floating mx-1">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+
+                                    </div>
+                            
+                                    <-- First Name input -->
+                                    <div class="form-outline mb-4">
+                                    <label class="form-label" for="SchoolName">School Name</label>
+                                    <input type="text" id="SchoolName" class="form-control" placeholder="MJ schule" required/>
+                                
+                                    </div>
+                
+                                    <!-- Middle Name input -->
+                                    <div class="form-outline mb-4">
+                                        <div class="form-outline mb-4">
+                                            <label class="form-label" for="Location" >Location</label>
+                                            <select name="Location" id="Location" class="form-control">
+                                                <option value="Gender">Choose State</option>
+                                                <option value="Abia">Abia</option>
+                                                <option value="Adamawa">Adamawa</option>
+                                                <option value="Akwa Ibom">Akwa Ibom</option>
+                                                <option value="Bauchi">Bauchi</option>
+                                                <option value="Benue">Benue</option>
+                                                <option value="Borno">Borno</option>
+                                                <option value="Delta">Delta</option>
+                                                <option value="Ebonyi">Ebonyi</option>
+                                                <option value="Edo">Edo </option>
+                                                <option value="Ekiti">Ekiti</option>
+                                                <option value="Enugu">Enugu</option>
+                                                <option value="Gombe">Gombe</option>
+                                                <option value="Imo">Imo</option>
+                                                <option value="Jigawa">Jigawa</option>
+                                                <option value="Kaduna">Kaduna</option>
+                                                <option value="Kano">Kano</option>
+                                                <option value="Katsina">Katsina</option>
+                                                <option value="Kebbi">Kebbi</option>
+                                                <option value="Kogi">Kogi</option>
+                                                <option value="Kwara">Kwara</option>
+                                                <option value="Lagos">Lagos</option>
+                                                <option value="Nasarawa">Nasarawa</option>
+                                                <option value="Niger">Niger</option>
+                                                <option value="Ogun">Ogun</option>
+                                                <option value="Ondo">Ondo</option>
+                                                <option value="Osun">Osun</option>
+                                                <option value="Oyo">Oyo</option>
+                                                <option value="Plateau">Plateau</option>
+                                                <option value="Rivers">Rivers</option>
+                                                <option value="Sokoto">Sokoto</option>
+                                                <option value="Taraba">Taraba</option>
+                                                <option value="Yobe">Yobe</option>
+                                                <option value="Zamfara">Zamfara</option>
+                                                <option value="FCT">FCT</option>
+                                            </select>
+                                        </div>
+                                
+                                    </div>
+                
+                
+                                    <!-- Email input -->
+                                    <div class="form-outline mb-4">
+                                        <label class="form-label" for="schoolName"> School Email</label>
+                                        <input type="email" id="schoolName" class="form-control" placeholder="schoolsMJ@example.com" required/>
+                                    
+                                    </div>
+                                    <!----------    team name---------->
+                                    <div class="form-outline mb-4">
+                                        <label class="form-label" for="TeamName"> Team Name</label>
+                                        <input type="email" id="TeamName" class="form-control" placeholder="schoolsMJ.com" required/>
+                                    
+                                    </div>
+                            
+                                    <!-- Password input -->
+                                    <div class="form-outline mb-4">
+                                    <label class="form-label" for="loginPassword">Password</label>
+                                    <input type="password" id="loginPassword" class="form-control" placeholder="123@34%r" required/>
+                                    
+                                    </div>
+                                    
+                                    
+                
+                                    <!-- Retype Password input -->
+                                    <div class="form-outline mb-4">
+                                        <label class="form-label" for="login-ConfirmPassword">Confirm Password</label>
+                                        <input type="password" id="login-ConfirmPassword" class="form-control" placeholder="123@34%r" required/>
+                                        
+                                    </div>
+                                    
+                                    <!-- upload input
+                                    <div class="form-outline mb-4">
+                                    <label class="form-label" for="upload image">Upload Image</label>
+                                        <input type="file" id="loginPassword" class="form-control" />
+                                        
+                                    </div> -->
+                
+                                    <!-- Gender input -->
+                                    <!-- <div class="form-outline mb-4">
+                                        <label class="form-check-label" for="Gender" >Gender</label>
+                                        <select name="Gender" id="loginName" class="form-control">
+                                            <option value="Gender">Gender</option>
+                                            <option value="Male">Male</option>
+                                            <option value="Female">Female</option>
+                                        </select>
+                                    </div> -->
+                                    <!-- ------------country------- -->
+                                    <!-- <div class="form-outline mb-4">
+                                        <label class="form-label" for="country">Country</label>
+                                        <input type="text" id="Country" class="form-control" placeholder="Country"/>
+                                        
+                                    </div> -->
+
+                                    <!-- ---------------state---------- -->
+                                    <!-- <div class="form-outline mb-4">
+                                        <label class="form-label" for="state"> State</label>
+                                        <input type="text" id="state" class="form-control" placeholder="state"/>
+                                    
+                                        
+                                    </div> -->
+
+                                    <!-- Grade Select input -->
+                                    <div class="form-outline mb-4">
+                                        <label class="form-label" for="Grade" >Level</label>
+                                        <select name="Level" id="loginName" class="form-control">
+                                            <option value="Gender">Choose Level</option>
+                                            <option value="Male">Primary School</option>
+                                            <option value="Female">Secondary School</option>
+                                        </select>
+                                    </div>
+
+                                    <!---------participants------------->
+                                    <!-- <div class="form-outline mb-4">
+                                        <label class="form-label" for="Participant">Participants</label>
+                                        <input type="Participant" id="Participant1" class="form-control form-label" placeholder="1st Participant Name" required/>
+                                        <input type="Participant" id="Participant2" class="form-control form-label" placeholder="2nd Participant Name" required/>
+                                        <input type="Participant" id="Participant3" class="form-control form-label" placeholder="3rd Participant Name" required/>
+
+                                    
+                                    </div> -->
+                
+                                    <!-- Grade Select input -->
+                                    <!-- <div class="form-outline mb-4">
+                                        <label class="form-label" for="Grade" >Grade</label>
+                                        <select name="Gender" id="loginName" class="form-control">
+                                        <option value="Grade">Choose Grade</option>
+                                        <optgroup label="Primary School">
+                                            
+                                            <option value="grade 1">Grade 1/ Year 1</option>
+                                            <option value="grade 2">Grade 2/ Year 2</option>
+                                            <option value="grade 3">Grade 3/ Year 3</option>
+                                            <option value="grade 4">Grade 4/ Year 4</option>
+                                            <option value="grade 5">Grade 5/ Year 5</option>
+                                            <option value="grade 6">Grade 6/ Year 6</option>
+                                        </optgroup>
+                                        <optgroup label="Secondary School">
+                                            <option value="grade 1">Grade 7/ Year 7</option>
+                                            <option value="grade 2">Grade 8/ Year 8</option>
+                                            <option value="grade 3">Grade 9/ Year 9</option>
+                                            <option value="grade 4">Grade 10/ Year 10</option>
+                                            <option value="grade 5">Grade 11/ Year 11</option>
+                                            <option value="grade 6">Grade 12/ Year 12</option>
+                                        </optgroup>
+                                            
+                                        </select>
+                                    </div> -->
+
+                                    
+                                    <!-- 2 column grid layout -->
+                                    <div class="row mb-4">
+                                        <div class="col-md-6 d-flex justify-content-center">
+                                        </div>
+                                
+                                        <div class="col-md-6 d-flex justify-content-center">
+                                            <!-- Simple link -->
+                                            <!-- <a href="#!">Forgot password?</a> -->
+                                        </div>
+                                    </div>
+                            
+                                    <!-- Submit button -->
+                                    <a href="./inter-school-dash.html" type="submit" class="btn btn-primary btn-block mb-4">Sign up</a>
+                            
+                                    <!-- Register buttons -->
+                                    <div class="text-center">
+                                    <p>Already a member? <a href="./login.html">Sign in</a></p>
+                                    </div>
+                                </form>
+                                </div>
+                                <div class="tab-pane fade" id="pills-register" role="tabpanel" aria-labelledby="tab-register">
+                                <form>
+                                    <div class="text-center mb-3">
+                                    <p>Sign up with:</p>
+                                    <a type="button" class="btn btn-link btn-floating mx-1">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                            
+                                    <a type="button" class="btn btn-link btn-floating mx-1">
+                                        <i class="fab fa-google"></i>
+                                    </a>
+                            
+                                    <a type="button" class="btn btn-link btn-floating mx-1">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                            
+                                    <a type="button" class="btn btn-link btn-floating mx-1">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    </div>
+                            
+                                    <p class="text-center">or:</p>
+                            
+                                    <!-- Name input -->
+                                    <div class="form-outline mb-4">
+                                    <input type="text" id="registerName" class="form-control" />
+                                    <label class="form-label" for="registerName">Name</label>
+                                    </div>
+                            
+                                    <!-- Email input -->
+                                    <div class="form-outline mb-4">
+                                    <input type="email" id="registerEmail" class="form-control" />
+                                    <label class="form-label" for="registerEmail">Email</label>
+                                    </div>
+                            
+                                    <!-- Password input -->
+                                    <div class="form-outline mb-4">
+                                    <input type="password" id="registerPassword" class="form-control" />
+                                    <input type="checkbox" onclick="togglePasswordVisibility()"> Show Password
+                                    <label class="form-label" for="registerPassword">Password</label>
+                                    </div>
+                            
+                                    <!-- Repeat Password input -->
+                                    <div class="form-outline mb-4">
+                                    <input type="password" id="registerRepeatPassword" class="form-control" />
+                                    </div>
+                            
+                                    <!-- Checkbox -->
+                                    <div class="form-check d-flex justify-content-center mb-4">
+                                    <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck" checked
+                                        aria-describedby="registerCheckHelpText" />
+                                    <label class="form-check-label" for="registerCheck">
+                                        I have read and agree to the terms
+                                    </label>
+                                    </div>
+                            
+                                
+                                
+                                </form>
+
+                                </div>
+                            </div>
+                        <!-- Pills content -->
+                    </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>    

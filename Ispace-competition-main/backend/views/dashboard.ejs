@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Dashboard - Virtual Competition</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="../assets/img/ispce-icon.ico" rel="icon">
+  <link href="../assets/img/ispce-icon.ico" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="../assets/css/style.css" rel="stylesheet">
+
+  
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/1bf45af5b5.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body >
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <!-- <h1 class="logo me-auto"><a href="index">Ispace</a></h1> -->
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="Dashboard" class="logo me-auto"><img src="../assets/img/ispace-logo (2).png" alt="Ispace" class="img-fluid"></a>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+         <ul>
+          <li><a   href="index">Hi <%=data.name%></a></li>
+          <li><a href="../logout">Logout</a></li>
+       
+        </ul> 
+        <!-- <i class="bi bi-list mobile-nav-toggle"></i> -->
+     
+      </nav><!-- .navbar -->
+      <div id="google_translate_element"></div>
+
+      <script type="text/javascript">
+      function googleTranslateElementInit() {
+       // new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+      }
+      </script>
+      
+      <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+      <!-- <a href="./register" class="get-started-btn">Get Started</a> -->
+
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="cource-details-tabs" class="cource-details-tabs" >
+      <div class="container" data-aos="fade-up" id="top-section">
+        <div class="container px-4 py-5" id="featured-3">
+          <h2 class="pb-2 border-bottom">ABOUT THE COMPETITION</h2>
+          <div class="col-lg-9 mt-4 mt-lg-0">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-1">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3> Competition Categories:</h3>
+                     <ul class="fst-italic"; type="circle">
+                      <li class="fst-italic">Animation Challenge</li>
+                      <li class="fst-italic">Game Design Challenge</li>
+                      <li class="fst-italic">Graphics Design Challenge</li>
+                      <li class="fst-italic">3D Design Challenge</li>
+                     </ul>
+                    <h3>Why Participate?</h3>
+                    <ul class="fst-italic">
+                      <li class="fst-italic">Sharpen Skills: Hone your coding and design abilities in a challenging yet fun environment.</li>
+                      <li class="fst-italic">Creative Expression: Showcase your design prowess in the Design Sprint category.</li>
+                      <li class="fst-italic">Networking: Connect with like-minded students and professionals in the tech and design fields.</li>
+                      <li class="fst-italic">Prizes: Stand a chance to win exciting prizes and recognition for your achievements.</li>
+                    </ul>
+                    <h3>Rules And Details</h3>
+                    <p>The competition will be held online throughout the World (Primary/Upper Elementary & Secondary/Middle School & High School) during the November 27th 2023-15th December, 2023</p>
+                    <ul class="fst-italic">
+                      <li class="fst-italic">Challenges will be different for each level (Primary/Upper Elementary & Secondary/Middle School) and suitable for the relevant level.</li>
+                      <li class="fst-italic">Challenges will consist of Basic coding knowledge, Repeat loops, Variables and Arrays.</li>
+                      <li class="fst-italic">Awards will be given separately for each category (Primary/Upper Elementary & Secondary/Middle School). </li>
+                      <li class="fst-italic">The project that collects the most stars by completing will be the winner.</li>
+                      <li class="fst-italic">In the event of equality for code efficiency and the number of stars, time will be taken into account. In this case, the student that finishes in the shortest amount of time will be the winner.</li>
+                    </ul>
+                    <h3>Guidelines</h3>
+                    <ul class="fst-italic">
+                      <li class="fst-italic">Entry must include a block-based project for Primary and Middle grade, and a text-based or block-based project for Secondary Students to qualify.</li>
+                      <li class="fst-italic">Each entry must include a clear photograph of the participant.</li>
+                      <li class="fst-italic">Only one submission is allowed per entrant.</li>
+                      <li class="fst-italic">Each entry must provide parent/guardian or teacher consent and contact information (if under 18 years old).<br><strong>Download:</strong><a href="./CONSENT FORM.docx">Consent Form</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="..//assets/img/kid-reading-removebg-preview.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-4">
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+            <i class="fa-solid fa-bullseye fa-bounce fa-xl"></i>
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Tell Us About Your Project</h3>
+          <p>Ready to bring your project to life? Tell us about it! We're here to turn your ideas into reality. Click below to get started.</p>
+          <a href="aboutproject" class="btn btn-outline-primary btn-lg">Next</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+ <!-- ======= Footer ======= -->
+ <footer id="footer">
+
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6 footer-contact footer-links">
+          <h3>iSPACE</h3>
+          <p>The Proxynet House, 5B Adedeji close,<br> off Opebi road,<br> Ikeja ,<br> Lagos
+          <br>
+          <strong>Phone:</strong><a href="tel:+234 8124019660" style="color:#444444;">+234 8124019660</a><br>
+          <strong>Email:</strong> <a href="mailto:info@proxynetgroup.com " style="color:#444444;" >info@proxynetgroup.com </a></p>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="./contact">More Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-6 footer-links">
+          <!-- <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="./index">Home</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="./about">About us</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="./events">Competitions</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="./competitions-details">Terms of service</a></li> -->
+            <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> -->
+          <!-- </ul> -->
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <!-- <h4>Our Competitions</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="./coding-details">Coding</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="./competitions-details">Robotics</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="./design-details">Graphic Design</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="./mobile-details">Mobile Development</a></li>
+          </ul> -->
+        </div>
+
+        <div class="col-lg-4 col-md-6 footer-newsletter">
+          <h4>Join Our Newsletter</h4>
+          <p>Be the first to get updated on the new up-coming competition</p>
+          <form action="mailto:info@proxynetgroup.com" method="post">
+            <input placeholder="Enter email" type="email" name="email"><input type="submit" value="Subscribe">
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container d-md-flex py-4">
+
+    <div class="me-md-auto text-center text-md-start">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Proxynet Communications</span></strong>. All Rights Reserved
+      </div>
+    </div>
+    <div class="social-links text-center text-md-right pt-3 pt-md-0">
+      <a href="https://twitter.com/ISPACECLUB1" class="twitter"><i class="bi bi-twitter-x"></i></a>
+      <!-- <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a> -->
+      <a href="https://instagram.com/ispaceclub" class="instagram"><i class="bx bxl-instagram"></i></a>
+      <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
+      <!-- <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
+    </div>
+  </div>
+</footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#main" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="../assets/js/main.js"></script>
+  
+
+</body>
+
+</html>

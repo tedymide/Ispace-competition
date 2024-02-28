@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Login - iSPACE Competition</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/ispce-icon.ico" rel="icon">
+    <link href="assets/img/ispce-icon.ico" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    
+   <!-- font awesome -->
+   <script src="https://kit.fontawesome.com/1bf45af5b5.js" crossorigin="anonymous"></script>
+   <style>
+   
+   </style>
+    </head>
+
+    <body>
+    
+        <main>
+            <section class="vh-100 login-main">
+                <div class="container-fluid h-custom">
+                <div class="row d-flex justify-content-center align-items-center h-100">
+                    <div class="col-md-9 col-lg-6 col-xl-5">
+                    <a href="./index.html"><img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
+                        class="img-fluid" alt="Sample image"></a>
+                    </div>
+                    <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+                    <!-- Pills navs -->
+                    <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
+                        <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="tab-login" data-mdb-toggle="pill" href="login.html" role="tab"
+                            aria-controls="pills-login" aria-selected="true">Login</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="tab-register" data-mdb-toggle="pill" href="register.html" role="tab"
+                            aria-controls="pills-register" aria-selected="false">Register</a>
+                        </li>
+                    </ul>
+                    <!-- Pills navs -->
+                    
+                    <!-- Pills content -->
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
+                            <div class="form-outline mb-4">
+                                <input type="radio" name="formSelector" value="individual"  onclick="showForm('individual')">
+                                <label for="individual" class="form-label">Individual</label>
+                                
+                            </div>
+                            <div class="form-outline mb-4">
+                                <input type="radio" name="formSelector" value="school" onclick="showForm('school')">
+                                <label for="school" class="form-label">School</label>
+                            </div>
+                        <form id="individual" class="hidden" >
+                            <div class="text-center mb-3">
+                            <p>Sign in:</p>
+                            </div>
+                    
+                            <!-- Email input -->
+                            <div class="form-outline mb-4">
+                            <input type="email" id="loginName" class="form-control" placeholder="MC@exaple.com"/>
+                            <label class="form-label" for="loginName">Email</label>
+                            </div>
+                    
+                            <!-- Password input -->
+                            <div class="form-outline mb-4">
+                            <input type="password" id="loginPassword" class="form-control" placeholder="********"/>
+                            <label class="form-label" for="loginPassword">Password</label>
+                            </div>
+                            <!---------------------------->
+                            <!-- 2 column grid layout -->
+                            <div class="row mb-4">
+                            <div class="col-md-6 d-flex justify-content-center">
+                                <!-- Checkbox -->
+                                <div class="form-check mb-3 mb-md-0">
+                                <input class="form-check-input" type="checkbox" value="" id="loginCheck" checked />
+                                <label class="form-check-label" for="loginCheck"> Remember me </label>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6 d-flex justify-content-center">
+                                <!-- Simple link -->
+                                <a href="#!">Forgot password?</a>
+                            </div>
+                            </div>
+
+                             <!-- Checkbox -->
+                             <div class="form-check d-flex justify-content-center mb-4">
+                                <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck" checked
+                                    aria-describedby="registerCheckHelpText" />
+                                <label class="form-check-label" for="registerCheck">
+                                    I have read and agree to the terms
+                                </label>
+                                </div>
+                    
+                            <!-- Submit button -->
+                              <!-- Submit button -->
+                              <a onclick="location.href = 'Dashboard.html'" type="submit" class="btn btn-primary btn-block mb-3">Sign in </a>
+                    
+                            <!-- Register buttons -->
+                            <div class="text-center">
+                            <p>Not a member? <a href="./register.html">Register</a></p>
+                            </div>
+                        </form>
+                        <form id="school" class="hidden" >
+                            <div class="text-center mb-3">
+                            <p>Sign in:</p>
+                            </div>
+                    
+                            <!-- Email input -->
+                            <div class="form-outline mb-4">
+                            <input type="email" id="loginName" class="form-control" placeholder="MC@exaple.com"/>
+                            <label class="form-label" for="loginName">School Email</label>
+                            </div>
+                    
+                            <!-- Password input -->
+                            <div class="form-outline mb-4">
+                            <input type="password" id="loginPassword" class="form-control" placeholder="********"/>
+                            <label class="form-label" for="loginPassword">Password</label>
+                            </div>
+                            <!---------------------------->
+                            <!-- 2 column grid layout -->
+                            <div class="row mb-4">
+                            <div class="col-md-6 d-flex justify-content-center">
+                                <!-- Checkbox -->
+                                <div class="form-check mb-3 mb-md-0">
+                                <input class="form-check-input" type="checkbox" value="" id="loginCheck" checked />
+                                <label class="form-check-label" for="loginCheck"> Remember me </label>
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-6 d-flex justify-content-center">
+                                <!-- Simple link -->
+                                <a href="#!">Forgot password?</a>
+                            </div>
+                            </div>
+
+                             <!-- Checkbox -->
+                             <div class="form-check d-flex justify-content-center mb-4">
+                                <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck" checked
+                                    aria-describedby="registerCheckHelpText" />
+                                <label class="form-check-label" for="registerCheck">
+                                    I have read and agree to the terms
+                                </label>
+                                </div>
+                    
+                            <!-- Submit button -->
+                              <!-- Submit button -->
+                              <a onclick="location.href = 'inter-school-dash.html'" type="submit" class="btn btn-primary btn-block mb-3">Sign in </a>
+                    
+                            <!-- Register buttons -->
+                            <div class="text-center">
+                            <p>Not a member? <a href="./register.html">Register</a></p>
+                            </div>
+                        </form>
+                        </div>
+                    </div>
+                    <!-- Pills content -->
+                    </div>
+                    
+                </div>
+                </div>
+                </div>
+                <script>
+                    function showForm(formId) {
+                      // Hide all forms
+                      document.getElementById('individual').classList.add('hidden');
+                      document.getElementById('school').classList.add('hidden');
+                     
+                
+                      // Show the selected form
+                      document.getElementById(formId).classList.remove('hidden');
+                    }
+                  </script>
+            </section>
+        </main>
+       
+    </body>
+</html>
